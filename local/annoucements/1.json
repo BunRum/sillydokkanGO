@@ -1,0 +1,28 @@
+{
+    "announcement": {
+        "id": 1,
+        "category": 7,
+        "layout_type": 0,
+        "title": "awesome!",
+        "banner": "https://cdn.discordapp.com/attachments/1016459780098887783/1044606588180234270/banner.png",
+        "summary": "you: this tool bun made goes hard \n bun: fr",
+        "start_at": 1669096800,
+        "new_appear_at": 0,
+        "is_new": true,
+        "announcement_tab_id": 1,
+        "bodies": [
+            {
+                "layout_type": 0,
+                "image": "https://cdn.discordapp.com/attachments/1016459780098887783/1043986405577203792/8FF92579-8A67-4D19-900D-4FEEAC8AD9EB.jpeg",
+                "description": "{center: begin}{size : 27}what the\n {IshinMovie: packaged_movies/DKB_SuperSaiyanGodSSGoku_SuperSaiyanGodSSVegeta_20221104.usm}"
+            },
+            {
+                "layout_type": 1,
+                "image": null,
+                "description": "[card_id:1023350]\r\n[styled_text : {size: 20}{outline: #000000, 2}{shadow: #00CC00, 1, 1, 1}me cool{shadow}{outline}{size}\r\n{color:#00CC00}{outline: #000000, 2}{shadow: #FFFFFF, 1, 1, 3}you fool{outline}{color}{shadow}]\r\n[show_card_image][image_scale: 1.2][image_offset: 0 -30]\r\n\r\n[show_owned_leader_skill]"
+            }
+            
+        ],
+        "announcement_status": "available"
+    }
+}

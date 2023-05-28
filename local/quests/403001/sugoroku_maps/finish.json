@@ -1,0 +1,195 @@
+{
+    "exp": 1500,
+    "zeni": 10360,
+    "required_zeni": 0,
+    "user_exp": 999,
+    "gasha_point": 50,
+    "clear_time_ms": 122515,
+    "prev_record_time_ms": null,
+    "continue_count": 0,
+    "quest_clear_rewards": [
+        {
+            "item_type": "Point::Stone",
+            "amount": 500
+        }
+    ],
+    "items": [],
+    "dragonballs": [],
+    "user_items": {
+        "user": {
+            "zeni": 16360,
+            "gasha_point": 50,
+            "exchange_point": 0,
+            "stone": 32
+        },
+        "training_items": [
+            {
+                "id": 101063845,
+                "training_item_id": 100,
+                "quantity": 1
+            }
+        ],
+        "support_items": [
+            {
+                "id": 82727623,
+                "support_item_id": 1201,
+                "quantity": 1
+            },
+            {
+                "id": 82727624,
+                "support_item_id": 1200,
+                "quantity": 1
+            },
+            {
+                "id": 82727625,
+                "support_item_id": 1603,
+                "quantity": 1
+            }
+        ],
+        "cards": [
+            {
+                "id": 1592440242,
+                "card_id": 2000670,
+                "exp": 0,
+                "skill_lv": 1,
+                "is_favorite": false,
+                "awakening_route_id": null,
+                "is_released_potential": false,
+                "released_rate": 0,
+                "optimal_awakening_step": null,
+                "card_decoration_id": null,
+                "exchangeable_item_id": null,
+                "awakenings": [],
+                "unlocked_square_statuses": [],
+                "updated_at": 1669534873,
+                "created_at": 1669534873,
+                "potential_parameters": [],
+                "equipment_skill_items": [],
+                "link_skill_lvs": []
+            },
+            {
+                "id": 1592436973,
+                "card_id": 1001890,
+                "exp": 1500,
+                "skill_lv": 1,
+                "is_favorite": false,
+                "awakening_route_id": null,
+                "is_released_potential": false,
+                "released_rate": 0,
+                "optimal_awakening_step": null,
+                "card_decoration_id": null,
+                "exchangeable_item_id": null,
+                "awakenings": [],
+                "unlocked_square_statuses": [],
+                "updated_at": 1669534873,
+                "created_at": 1669532547,
+                "potential_parameters": [],
+                "equipment_skill_items": [],
+                "link_skill_lvs": []
+            },
+            {
+                "id": 1592436974,
+                "card_id": 1001900,
+                "exp": 1500,
+                "skill_lv": 1,
+                "is_favorite": false,
+                "awakening_route_id": null,
+                "is_released_potential": false,
+                "released_rate": 0,
+                "optimal_awakening_step": null,
+                "card_decoration_id": null,
+                "exchangeable_item_id": null,
+                "awakenings": [],
+                "unlocked_square_statuses": [],
+                "updated_at": 1669534873,
+                "created_at": 1669532547,
+                "potential_parameters": [],
+                "equipment_skill_items": [],
+                "link_skill_lvs": []
+            },
+            {
+                "id": 1592436975,
+                "card_id": 1001910,
+                "exp": 1500,
+                "skill_lv": 1,
+                "is_favorite": false,
+                "awakening_route_id": null,
+                "is_released_potential": false,
+                "released_rate": 0,
+                "optimal_awakening_step": null,
+                "card_decoration_id": null,
+                "exchangeable_item_id": null,
+                "awakenings": [],
+                "unlocked_square_statuses": [],
+                "updated_at": 1669534873,
+                "created_at": 1669532547,
+                "potential_parameters": [],
+                "equipment_skill_items": [],
+                "link_skill_lvs": []
+            }
+        ],
+        "support_films": [
+            {
+                "id": 1591544,
+                "support_film_id": 2,
+                "quantity": 104
+            },
+            {
+                "id": 1591547,
+                "support_film_id": 5,
+                "quantity": 104
+            }
+        ]
+    },
+    "user_dragonball_sessions": [],
+    "user": {
+        "id": 2828989263,
+        "name": "Berserker",
+        "is_ondemand": true,
+        "rank": 4,
+        "exp": 120,
+        "act": 76,
+        "boost_point": 0,
+        "act_max": 22,
+        "act_at": 1669534873,
+        "boost_at": 0,
+        "wallpaper_item_id": 0,
+        "achievement_id": null,
+        "mainpage_card_id": null,
+        "mainpage_user_card_id": null,
+        "mydata_subpage_visible": true,
+        "card_capacity": 20,
+        "total_card_capacity": 200,
+        "friends_capacity": 51,
+        "support_item_capacity": 3,
+        "is_support_item_capacity_extended": false,
+        "battle_energy": {
+            "energy": 0,
+            "recover_point_with_stone": 1,
+            "battle_at": 0,
+            "seconds_per_cure": 10800,
+            "max_recovery_count": 5,
+            "recovered_count": 0
+        },
+        "zeni": 16360,
+        "gasha_point": 50,
+        "exchange_point": 0,
+        "stone": 32,
+        "tutorial": {
+            "progress": 999999,
+            "is_finished": true,
+            "contents_lv": 0
+        },
+        "is_potential_releaseable": false,
+        "processed_at": 1669534873
+    },
+    "friend_status": 6,
+    "missions": [],
+    "is_reviewable": false,
+    "boosted": false,
+    "cleared_difficulties": [
+        0,
+        1,
+        2
+    ]
+}

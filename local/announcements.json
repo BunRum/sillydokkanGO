@@ -1,0 +1,34 @@
+{
+    "announcement_tab_id": 1,
+    "announcement_tabs": [
+        {
+            "id": 1,
+            "name": "Campaign",
+            "priority": 10
+        },
+        {
+            "id": 2,
+            "name": "Event",
+            "priority": 5
+        },
+        {
+            "id": 3,
+            "name": "Other",
+            "priority": 1
+        }
+    ],
+    "announcements": [
+        {
+            "id": 1,
+            "category": 7,
+            "layout_type": 0,
+            "title": "awesome!",
+            "banner": "https://cdn.discordapp.com/attachments/1016459780098887783/1044606588180234270/banner.png",
+            "summary": "you: this tool bun made goes hard \n bun: fr",
+            "start_at": 1669096800,
+            "new_appear_at": 0,
+            "is_new": true,
+            "announcement_tab_id": 1
+        }
+    ]
+}

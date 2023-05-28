@@ -1,0 +1,70 @@
+{
+    "gashas": [
+        {
+            "id": 1,
+            "type": "Gasha::StoneGasha",
+            "name": "Silly Summon Simulator",
+            "description": "{center:begin}simulate summons :silly:{center}",
+            "timer_layout_type": 0,
+            "is_rate_visible": true,
+            "notification_announcement_master_id": null,
+            "information_announcement_master_id": null,
+            "gasha_category_id": 1,
+            "open_at": 1503619200,
+            "end_at": 2145916800,
+            "current_step": 1,
+            "banner_url": "./main.png",
+            "banner_lwf_path": null,
+            "usm_file_path": null,
+            "mypage_banner_url": null,
+            "courses": [
+                {
+                    "no": 1,
+                    "title": "{color: #FFFF00}Hercule's Fortune Summon{color}",
+                    "description": "Use {color : #FFFF00}1 Hercule's Fortune Summon Ticket{color}\nto perform {color : #FF9900}a Single Summon{color}!",
+                    "currency_id": null,
+                    "price": 1,
+                    "items_count": null,
+                    "drawable_count": 0
+                },
+                {
+                    "no": 2,
+                    "title": "{color: #FFFF00}Silly Summon Simulator{color}",
+                    "description": "{color : #FF9900 }FREE SUMMONSSS :silly:{color}!",
+                    "currency_id": null,
+                    "price": 0,
+                    "items_count": 10,
+                    "drawable_count": null
+                }
+            ],
+            "is_new": false
+        }
+    ],
+    "processed_at": 1672113534,
+    "gasha_categories": [
+        {
+            "id": 1,
+            "name": "Main",
+            "priority": 4000,
+            "is_default": true
+        },
+        {
+            "id": 2,
+            "name": "Dragon Stone",
+            "priority": 3000,
+            "is_default": false
+        },
+        {
+            "id": 3,
+            "name": "Ticket",
+            "priority": 2000,
+            "is_default": false
+        },
+        {
+            "id": 4,
+            "name": "Friend Pts.",
+            "priority": 1000,
+            "is_default": false
+        }
+    ]
+}

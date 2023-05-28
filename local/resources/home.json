@@ -1,0 +1,26 @@
+{
+    "dragonball_sets": [],
+    "user_subscription": {},
+    "budokai": {},
+    "rmbattles": {},
+    "banners": [
+        {
+            "id": 1,
+            "image": "./banner.png",
+            "link_to": "./banner.png",
+            "description": "thifgrd fr111",
+            "start_at": 1665446400,
+            "end_at": 4095360000
+        }
+    ],
+    "tutorial": {
+        "progress": 999,
+        "is_finished": true,
+        "contents_lv": 500
+    },
+    "treasure_item_switching_banners": [],
+    "bonus_schedules": [],
+    "random_login_bonuses": [],
+    "apologies": [],
+    "gifts": []
+}

@@ -1,0 +1,247 @@
+{
+    "events": [
+        {
+            "id": 579,
+            "announcement_id": 1,
+            "event_image": "./banners/event/111/event.png",
+            "banner_image": "./banners/event/111/banner.png",
+            "minibanner_image": null,
+            "listbutton_image": null,
+            "recommend": null,
+            "lock": null,
+            "start_at": ".currentdate",
+            "end_at": ".endoftime",
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": ".currentdate",
+            "wday_end_at": ".endoftime",
+            "quests": [
+                {
+                    "id": 579001,
+                    "name": "Rage of the Proud Father-Son Duo",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                }
+            ]
+        },
+        {
+            "id": 761,
+            "announcement_id": 1,
+            "event_image": "./banners/event/2/event.png",
+            "banner_image": "./banners/event/2/banner.png",
+            "minibanner_image": null,
+            "listbutton_image": null,
+            "recommend": null,
+            "lock": null,
+            "start_at": ".currentdate",
+            "end_at": ".endoftime",
+            "wday": [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday"
+            ],
+            "wday_start_at": ".currentdate",
+            "wday_end_at": ".endoftime",
+            "quests": [
+                {
+                    "id": 761001,
+                    "name": "Failing PE, Day 1",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761002,
+                    "name": "Failing PE, Day 2",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761003,
+                    "name": "Failing PE, Day 3",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761004,
+                    "name": "Failing PE, Day 4",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761005,
+                    "name": "Failing PE, Day 5",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761006,
+                    "name": "Failing PE, Day 6",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761007,
+                    "name": "Failing PE, Day 7",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761008,
+                    "name": "Failing PE, Day 8",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761009,
+                    "name": "Failing PE, Day 9",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761010,
+                    "name": "Failing PE, Day 10",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761011,
+                    "name": "Failing PE, Day 11",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761012,
+                    "name": "Failing PE, Day 12",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761013,
+                    "name": "Failing PE, Day 13",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761014,
+                    "name": "Failing PE, Day 14",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761015,
+                    "name": "Failing PE, Day 15",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761016,
+                    "name": "Failing PE, Day 16",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761017,
+                    "name": "Failing PE, Day 17",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                },
+                {
+                    "id": 761018,
+                    "name": "Failing PE, Day 18",
+                    "visit_count_max": null,
+                    "interval_reset_visited_days": null,
+                    "user_quest": {
+                        "visited_count": 1,
+                        "next_reset_at": null
+                    }
+                }
+            ]
+        }
+    ],
+    "z_battle_stages": [],
+    "eventkagi_events": [],
+    "eventkagi_z_battle_stages": []
+}

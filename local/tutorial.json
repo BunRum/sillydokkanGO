@@ -1,0 +1,3005 @@
+[
+    {
+        "url": "./bnid.cpk",
+        "file_path": "bnid.cpk",
+        "algorithm": "xxhash",
+        "size": 47232,
+        "hash": "779621674066836104"
+    },
+    {
+        "url": "./fonts/fonts.cpk",
+        "file_path": "fonts/fonts.cpk",
+        "algorithm": "xxhash",
+        "size": 55031744,
+        "hash": "5711507954254655943"
+    },
+    {
+        "url": "./layout/en/image/chain_battle.cpk",
+        "file_path": "layout/en/image/chain_battle.cpk",
+        "algorithm": "xxhash",
+        "size": 2090808,
+        "hash": "8770610859774085760"
+    },
+    {
+        "url": "./layout/en/image/character.cpk",
+        "file_path": "layout/en/image/character.cpk",
+        "algorithm": "xxhash",
+        "size": 3077400,
+        "hash": "909754841150699089"
+    },
+    {
+        "url": "./layout/en/image/charamenu.cpk",
+        "file_path": "layout/en/image/charamenu.cpk",
+        "algorithm": "xxhash",
+        "size": 4108600,
+        "hash": "13012660983223337063"
+    },
+    {
+        "url": "./layout/en/image/collection.cpk",
+        "file_path": "layout/en/image/collection.cpk",
+        "algorithm": "xxhash",
+        "size": 319728,
+        "hash": "14213467564894357125"
+    },
+    {
+        "url": "./layout/en/image/common.cpk",
+        "file_path": "layout/en/image/common.cpk",
+        "algorithm": "xxhash",
+        "size": 6737704,
+        "hash": "11742164174613148435"
+    },
+    {
+        "url": "./layout/en/image/cooperation_cp.cpk",
+        "file_path": "layout/en/image/cooperation_cp.cpk",
+        "algorithm": "xxhash",
+        "size": 684312,
+        "hash": "17119192692243216236"
+    },
+    {
+        "url": "./layout/en/image/dairansen.cpk",
+        "file_path": "layout/en/image/dairansen.cpk",
+        "algorithm": "xxhash",
+        "size": 1926304,
+        "hash": "439211901252542493"
+    },
+    {
+        "url": "./layout/en/image/dbstory.cpk",
+        "file_path": "layout/en/image/dbstory.cpk",
+        "algorithm": "xxhash",
+        "size": 98448,
+        "hash": "9673451321881621268"
+    },
+    {
+        "url": "./layout/en/image/friend.cpk",
+        "file_path": "layout/en/image/friend.cpk",
+        "algorithm": "xxhash",
+        "size": 18584,
+        "hash": "2262394920258025614"
+    },
+    {
+        "url": "./layout/en/image/gasha.cpk",
+        "file_path": "layout/en/image/gasha.cpk",
+        "algorithm": "xxhash",
+        "size": 934448,
+        "hash": "12259246213796042069"
+    },
+    {
+        "url": "./layout/en/image/genkai_battle.cpk",
+        "file_path": "layout/en/image/genkai_battle.cpk",
+        "algorithm": "xxhash",
+        "size": 709080,
+        "hash": "952182265824161019"
+    },
+    {
+        "url": "./layout/en/image/giru_nav.cpk",
+        "file_path": "layout/en/image/giru_nav.cpk",
+        "algorithm": "xxhash",
+        "size": 442608,
+        "hash": "15566680913316710302"
+    },
+    {
+        "url": "./layout/en/image/ingame.cpk",
+        "file_path": "layout/en/image/ingame.cpk",
+        "algorithm": "xxhash",
+        "size": 2682400,
+        "hash": "130229148497869278"
+    },
+    {
+        "url": "./layout/en/image/item.cpk",
+        "file_path": "layout/en/image/item.cpk",
+        "algorithm": "xxhash",
+        "size": 2020408,
+        "hash": "3288103862207825138"
+    },
+    {
+        "url": "./layout/en/image/jukebox.cpk",
+        "file_path": "layout/en/image/jukebox.cpk",
+        "algorithm": "xxhash",
+        "size": 297232,
+        "hash": "2125358526620871398"
+    },
+    {
+        "url": "./layout/en/image/login_bonus.cpk",
+        "file_path": "layout/en/image/login_bonus.cpk",
+        "algorithm": "xxhash",
+        "size": 112848,
+        "hash": "11440629289931180472"
+    },
+    {
+        "url": "./layout/en/image/menu.cpk",
+        "file_path": "layout/en/image/menu.cpk",
+        "algorithm": "xxhash",
+        "size": 143536,
+        "hash": "943106454468204518"
+    },
+    {
+        "url": "./layout/en/image/mission.cpk",
+        "file_path": "layout/en/image/mission.cpk",
+        "algorithm": "xxhash",
+        "size": 3072136,
+        "hash": "1129582749661115763"
+    },
+    {
+        "url": "./layout/en/image/mydata.cpk",
+        "file_path": "layout/en/image/mydata.cpk",
+        "algorithm": "xxhash",
+        "size": 246136,
+        "hash": "2834276703505495233"
+    },
+    {
+        "url": "./layout/en/image/mypage.cpk",
+        "file_path": "layout/en/image/mypage.cpk",
+        "algorithm": "xxhash",
+        "size": 2053312,
+        "hash": "5603128702309119734"
+    },
+    {
+        "url": "./layout/en/image/panel_mission.cpk",
+        "file_path": "layout/en/image/panel_mission.cpk",
+        "algorithm": "xxhash",
+        "size": 96496,
+        "hash": "13891847512785893548"
+    },
+    {
+        "url": "./layout/en/image/quest.cpk",
+        "file_path": "layout/en/image/quest.cpk",
+        "algorithm": "xxhash",
+        "size": 3060808,
+        "hash": "8363658725920819108"
+    },
+    {
+        "url": "./layout/en/image/recommend.cpk",
+        "file_path": "layout/en/image/recommend.cpk",
+        "algorithm": "xxhash",
+        "size": 10384,
+        "hash": "16187281052330478749"
+    },
+    {
+        "url": "./layout/en/image/sd_battle.cpk",
+        "file_path": "layout/en/image/sd_battle.cpk",
+        "algorithm": "xxhash",
+        "size": 2032688,
+        "hash": "13637507333051730551"
+    },
+    {
+        "url": "./layout/en/image/shop.cpk",
+        "file_path": "layout/en/image/shop.cpk",
+        "algorithm": "xxhash",
+        "size": 682488,
+        "hash": "2131295079073964053"
+    },
+    {
+        "url": "./layout/en/image/splash.cpk",
+        "file_path": "layout/en/image/splash.cpk",
+        "algorithm": "xxhash",
+        "size": 452744,
+        "hash": "9991853987372083859"
+    },
+    {
+        "url": "./layout/en/image/tournament.cpk",
+        "file_path": "layout/en/image/tournament.cpk",
+        "algorithm": "xxhash",
+        "size": 2098672,
+        "hash": "11731052275034037991"
+    },
+    {
+        "url": "./layout/en/image/trade.cpk",
+        "file_path": "layout/en/image/trade.cpk",
+        "algorithm": "xxhash",
+        "size": 2462680,
+        "hash": "13020232136101436570"
+    },
+    {
+        "url": "./layout/en/image.cpk",
+        "file_path": "layout/en/image.cpk",
+        "algorithm": "xxhash",
+        "size": 3234160,
+        "hash": "4004542484365213144"
+    },
+    {
+        "url": "./layout/en/image/zbattle.cpk",
+        "file_path": "layout/en/image/zbattle.cpk",
+        "algorithm": "xxhash",
+        "size": 264760,
+        "hash": "3282067639775810604"
+    },
+    {
+        "url": "./outgame/effect/anim_00000.cpk",
+        "file_path": "outgame/effect/anim_00000.cpk",
+        "algorithm": "xxhash",
+        "size": 526488,
+        "hash": "12889213429596344568"
+    },
+    {
+        "url": "./outgame/effect/anim_00002.cpk",
+        "file_path": "outgame/effect/anim_00002.cpk",
+        "algorithm": "xxhash",
+        "size": 684192,
+        "hash": "14922669489702992955"
+    },
+    {
+        "url": "./outgame/effect/anim_00011.cpk",
+        "file_path": "outgame/effect/anim_00011.cpk",
+        "algorithm": "xxhash",
+        "size": 506008,
+        "hash": "4315208465432538377"
+    },
+    {
+        "url": "./outgame/effect/anim_00012.cpk",
+        "file_path": "outgame/effect/anim_00012.cpk",
+        "algorithm": "xxhash",
+        "size": 544920,
+        "hash": "1112228629326023037"
+    },
+    {
+        "url": "./outgame/effect/anim_00013.cpk",
+        "file_path": "outgame/effect/anim_00013.cpk",
+        "algorithm": "xxhash",
+        "size": 375208,
+        "hash": "5431021343686789785"
+    },
+    {
+        "url": "./outgame/effect/anim_00014.cpk",
+        "file_path": "outgame/effect/anim_00014.cpk",
+        "algorithm": "xxhash",
+        "size": 1874200,
+        "hash": "15133358390373314570"
+    },
+    {
+        "url": "./outgame/effect/anim_00015.cpk",
+        "file_path": "outgame/effect/anim_00015.cpk",
+        "algorithm": "xxhash",
+        "size": 264592,
+        "hash": "17252835748508465980"
+    },
+    {
+        "url": "./outgame/effect/anim_10000.cpk",
+        "file_path": "outgame/effect/anim_10000.cpk",
+        "algorithm": "xxhash",
+        "size": 4147288,
+        "hash": "13446964137076040082"
+    },
+    {
+        "url": "./outgame/effect/anim_10002.cpk",
+        "file_path": "outgame/effect/anim_10002.cpk",
+        "algorithm": "xxhash",
+        "size": 11301768,
+        "hash": "551614633315620088"
+    },
+    {
+        "url": "./outgame/effect/anim_10003.cpk",
+        "file_path": "outgame/effect/anim_10003.cpk",
+        "algorithm": "xxhash",
+        "size": 118928,
+        "hash": "1292441499271951191"
+    },
+    {
+        "url": "./outgame/effect/anim_10004.cpk",
+        "file_path": "outgame/effect/anim_10004.cpk",
+        "algorithm": "xxhash",
+        "size": 219280,
+        "hash": "7049900370714676457"
+    },
+    {
+        "url": "./outgame/effect/anim_10005.cpk",
+        "file_path": "outgame/effect/anim_10005.cpk",
+        "algorithm": "xxhash",
+        "size": 82080,
+        "hash": "7127934488358743479"
+    },
+    {
+        "url": "./outgame/effect/anim_10010.cpk",
+        "file_path": "outgame/effect/anim_10010.cpk",
+        "algorithm": "xxhash",
+        "size": 219272,
+        "hash": "6207408069243531497"
+    },
+    {
+        "url": "./outgame/effect/anim_10011.cpk",
+        "file_path": "outgame/effect/anim_10011.cpk",
+        "algorithm": "xxhash",
+        "size": 231560,
+        "hash": "95797590512790586"
+    },
+    {
+        "url": "./outgame/effect/anim_10012.cpk",
+        "file_path": "outgame/effect/anim_10012.cpk",
+        "algorithm": "xxhash",
+        "size": 223368,
+        "hash": "14979044800796450750"
+    },
+    {
+        "url": "./outgame/effect/anim_10013.cpk",
+        "file_path": "outgame/effect/anim_10013.cpk",
+        "algorithm": "xxhash",
+        "size": 307336,
+        "hash": "3505535798117620351"
+    },
+    {
+        "url": "./outgame/effect/anim_10014.cpk",
+        "file_path": "outgame/effect/anim_10014.cpk",
+        "algorithm": "xxhash",
+        "size": 219272,
+        "hash": "11925085180784025026"
+    },
+    {
+        "url": "./outgame/effect/anim_10015.cpk",
+        "file_path": "outgame/effect/anim_10015.cpk",
+        "algorithm": "xxhash",
+        "size": 219272,
+        "hash": "1355525406521737177"
+    },
+    {
+        "url": "./outgame/effect/anim_10016.cpk",
+        "file_path": "outgame/effect/anim_10016.cpk",
+        "algorithm": "xxhash",
+        "size": 309384,
+        "hash": "3930724208371004913"
+    },
+    {
+        "url": "./outgame/effect/anim_10017.cpk",
+        "file_path": "outgame/effect/anim_10017.cpk",
+        "algorithm": "xxhash",
+        "size": 219272,
+        "hash": "11440600969581677439"
+    },
+    {
+        "url": "./outgame/effect/anim_10018.cpk",
+        "file_path": "outgame/effect/anim_10018.cpk",
+        "algorithm": "xxhash",
+        "size": 219272,
+        "hash": "4533573618785850639"
+    },
+    {
+        "url": "./outgame/effect/anim_10019.cpk",
+        "file_path": "outgame/effect/anim_10019.cpk",
+        "algorithm": "xxhash",
+        "size": 268424,
+        "hash": "8596939614189112511"
+    },
+    {
+        "url": "./outgame/effect/anim_10020.cpk",
+        "file_path": "outgame/effect/anim_10020.cpk",
+        "algorithm": "xxhash",
+        "size": 268424,
+        "hash": "6667659272032688300"
+    },
+    {
+        "url": "./outgame/effect/anim_10021.cpk",
+        "file_path": "outgame/effect/anim_10021.cpk",
+        "algorithm": "xxhash",
+        "size": 245896,
+        "hash": "1398813975992886108"
+    },
+    {
+        "url": "./outgame/effect/anim_10022.cpk",
+        "file_path": "outgame/effect/anim_10022.cpk",
+        "algorithm": "xxhash",
+        "size": 254088,
+        "hash": "13702202872315689258"
+    },
+    {
+        "url": "./outgame/effect/anim_10023.cpk",
+        "file_path": "outgame/effect/anim_10023.cpk",
+        "algorithm": "xxhash",
+        "size": 254088,
+        "hash": "15479387533673615452"
+    },
+    {
+        "url": "./outgame/effect/anim_10024.cpk",
+        "file_path": "outgame/effect/anim_10024.cpk",
+        "algorithm": "xxhash",
+        "size": 254088,
+        "hash": "10717067399097629471"
+    },
+    {
+        "url": "./outgame/effect/anim_10025.cpk",
+        "file_path": "outgame/effect/anim_10025.cpk",
+        "algorithm": "xxhash",
+        "size": 249992,
+        "hash": "2734147593248657823"
+    },
+    {
+        "url": "./outgame/effect/anim_10026.cpk",
+        "file_path": "outgame/effect/anim_10026.cpk",
+        "algorithm": "xxhash",
+        "size": 243848,
+        "hash": "27778898118549868"
+    },
+    {
+        "url": "./outgame/effect/anim_110000.cpk",
+        "file_path": "outgame/effect/anim_110000.cpk",
+        "algorithm": "xxhash",
+        "size": 233624,
+        "hash": "7343632694071732811"
+    },
+    {
+        "url": "./outgame/effect/anim_130000.cpk",
+        "file_path": "outgame/effect/anim_130000.cpk",
+        "algorithm": "xxhash",
+        "size": 340128,
+        "hash": "9961915828171912553"
+    },
+    {
+        "url": "./outgame/effect/anim_140000.cpk",
+        "file_path": "outgame/effect/anim_140000.cpk",
+        "algorithm": "xxhash",
+        "size": 159936,
+        "hash": "3660526552909718899"
+    },
+    {
+        "url": "./outgame/effect/anim_150000.cpk",
+        "file_path": "outgame/effect/anim_150000.cpk",
+        "algorithm": "xxhash",
+        "size": 387224,
+        "hash": "10356549524639210605"
+    },
+    {
+        "url": "./outgame/effect/anim_160000.cpk",
+        "file_path": "outgame/effect/anim_160000.cpk",
+        "algorithm": "xxhash",
+        "size": 743672,
+        "hash": "15226111415891975181"
+    },
+    {
+        "url": "./outgame/effect/anim_170000.cpk",
+        "file_path": "outgame/effect/anim_170000.cpk",
+        "algorithm": "xxhash",
+        "size": 26760,
+        "hash": "14204455155607852293"
+    },
+    {
+        "url": "./outgame/effect/anim_180000.cpk",
+        "file_path": "outgame/effect/anim_180000.cpk",
+        "algorithm": "xxhash",
+        "size": 454944,
+        "hash": "2866962983299364995"
+    },
+    {
+        "url": "./outgame/effect/anim_190000.cpk",
+        "file_path": "outgame/effect/anim_190000.cpk",
+        "algorithm": "xxhash",
+        "size": 354448,
+        "hash": "5340837873452574473"
+    },
+    {
+        "url": "./outgame/effect/anim_200000.cpk",
+        "file_path": "outgame/effect/anim_200000.cpk",
+        "algorithm": "xxhash",
+        "size": 1613984,
+        "hash": "3636318735346397312"
+    },
+    {
+        "url": "./outgame/effect/anim_210000.cpk",
+        "file_path": "outgame/effect/anim_210000.cpk",
+        "algorithm": "xxhash",
+        "size": 370856,
+        "hash": "1709820615427552127"
+    },
+    {
+        "url": "./outgame/effect/anim_220000.cpk",
+        "file_path": "outgame/effect/anim_220000.cpk",
+        "algorithm": "xxhash",
+        "size": 678104,
+        "hash": "74285774741074133"
+    },
+    {
+        "url": "./outgame/effect/anim_230000.cpk",
+        "file_path": "outgame/effect/anim_230000.cpk",
+        "algorithm": "xxhash",
+        "size": 813216,
+        "hash": "5300882507961230580"
+    },
+    {
+        "url": "./outgame/effect/anim_240000.cpk",
+        "file_path": "outgame/effect/anim_240000.cpk",
+        "algorithm": "xxhash",
+        "size": 1487184,
+        "hash": "16584923425080741308"
+    },
+    {
+        "url": "./outgame/effect/anim_250000.cpk",
+        "file_path": "outgame/effect/anim_250000.cpk",
+        "algorithm": "xxhash",
+        "size": 10368,
+        "hash": "11487465529032255212"
+    },
+    {
+        "url": "./outgame/effect/anim_251000.cpk",
+        "file_path": "outgame/effect/anim_251000.cpk",
+        "algorithm": "xxhash",
+        "size": 10368,
+        "hash": "7423894694837022750"
+    },
+    {
+        "url": "./outgame/effect/anim_260000.cpk",
+        "file_path": "outgame/effect/anim_260000.cpk",
+        "algorithm": "xxhash",
+        "size": 176408,
+        "hash": "900587316958278280"
+    },
+    {
+        "url": "./outgame/effect/anim_261000.cpk",
+        "file_path": "outgame/effect/anim_261000.cpk",
+        "algorithm": "xxhash",
+        "size": 34952,
+        "hash": "2016304043036689851"
+    },
+    {
+        "url": "./outgame/effect/anim_270000.cpk",
+        "file_path": "outgame/effect/anim_270000.cpk",
+        "algorithm": "xxhash",
+        "size": 12424,
+        "hash": "1629126754179540444"
+    },
+    {
+        "url": "./outgame/effect/anim_280000.cpk",
+        "file_path": "outgame/effect/anim_280000.cpk",
+        "algorithm": "xxhash",
+        "size": 125064,
+        "hash": "7778376309550047373"
+    },
+    {
+        "url": "./outgame/effect/anim_290000.cpk",
+        "file_path": "outgame/effect/anim_290000.cpk",
+        "algorithm": "xxhash",
+        "size": 90256,
+        "hash": "17432075439358764642"
+    },
+    {
+        "url": "./outgame/effect/anim_50000.cpk",
+        "file_path": "outgame/effect/anim_50000.cpk",
+        "algorithm": "xxhash",
+        "size": 2109680,
+        "hash": "6752164812765463192"
+    },
+    {
+        "url": "./outgame/effect/anim_60000.cpk",
+        "file_path": "outgame/effect/anim_60000.cpk",
+        "algorithm": "xxhash",
+        "size": 104592,
+        "hash": "5765235448275579368"
+    },
+    {
+        "url": "./outgame/effect/anim_70000.cpk",
+        "file_path": "outgame/effect/anim_70000.cpk",
+        "algorithm": "xxhash",
+        "size": 32912,
+        "hash": "7144837920604896409"
+    },
+    {
+        "url": "./outgame/effect/anim_75000.cpk",
+        "file_path": "outgame/effect/anim_75000.cpk",
+        "algorithm": "xxhash",
+        "size": 14496,
+        "hash": "2944856435274727155"
+    },
+    {
+        "url": "./outgame/effect/anim_80000.cpk",
+        "file_path": "outgame/effect/anim_80000.cpk",
+        "algorithm": "xxhash",
+        "size": 254144,
+        "hash": "8144771107173976977"
+    },
+    {
+        "url": "./outgame/effect/btn_30000.cpk",
+        "file_path": "outgame/effect/btn_30000.cpk",
+        "algorithm": "xxhash",
+        "size": 43152,
+        "hash": "13047410015505037063"
+    },
+    {
+        "url": "./outgame/effect/card_sticker_00000.cpk",
+        "file_path": "outgame/effect/card_sticker_00000.cpk",
+        "algorithm": "xxhash",
+        "size": 1640704,
+        "hash": "4987932215358284548"
+    },
+    {
+        "url": "./outgame/effect/dairansen_10001.cpk",
+        "file_path": "outgame/effect/dairansen_10001.cpk",
+        "algorithm": "xxhash",
+        "size": 2214056,
+        "hash": "7524696689182768315"
+    },
+    {
+        "url": "./outgame/effect/dairansen_10002.cpk",
+        "file_path": "outgame/effect/dairansen_10002.cpk",
+        "algorithm": "xxhash",
+        "size": 266384,
+        "hash": "7855084549673777687"
+    },
+    {
+        "url": "./outgame/effect/dairansen_10003.cpk",
+        "file_path": "outgame/effect/dairansen_10003.cpk",
+        "algorithm": "xxhash",
+        "size": 637120,
+        "hash": "8614890334892597057"
+    },
+    {
+        "url": "./outgame/effect/dairansen_10004.cpk",
+        "file_path": "outgame/effect/dairansen_10004.cpk",
+        "algorithm": "xxhash",
+        "size": 516384,
+        "hash": "3124187436876049991"
+    },
+    {
+        "url": "./outgame/effect/dairansen_textures.cpk",
+        "file_path": "outgame/effect/dairansen_textures.cpk",
+        "algorithm": "xxhash",
+        "size": 16512,
+        "hash": "6164801896724555678"
+    },
+    {
+        "url": "./outgame/effect/equipment_item_00000.cpk",
+        "file_path": "outgame/effect/equipment_item_00000.cpk",
+        "algorithm": "xxhash",
+        "size": 354448,
+        "hash": "5497098195125295281"
+    },
+    {
+        "url": "./outgame/effect/giru_nav_top.cpk",
+        "file_path": "outgame/effect/giru_nav_top.cpk",
+        "algorithm": "xxhash",
+        "size": 753880,
+        "hash": "1628268171936396899"
+    },
+    {
+        "url": "./outgame/effect/icon_rare_00000.cpk",
+        "file_path": "outgame/effect/icon_rare_00000.cpk",
+        "algorithm": "xxhash",
+        "size": 213128,
+        "hash": "170798304735324691"
+    },
+    {
+        "url": "./outgame/effect/icon_rare_10000.cpk",
+        "file_path": "outgame/effect/icon_rare_10000.cpk",
+        "algorithm": "xxhash",
+        "size": 78024,
+        "hash": "16782575730053672928"
+    },
+    {
+        "url": "./outgame/effect/icon_rare_20000.cpk",
+        "file_path": "outgame/effect/icon_rare_20000.cpk",
+        "algorithm": "xxhash",
+        "size": 286880,
+        "hash": "200289600526769315"
+    },
+    {
+        "url": "./outgame/effect/juke_ui_effect.cpk",
+        "file_path": "outgame/effect/juke_ui_effect.cpk",
+        "algorithm": "xxhash",
+        "size": 270472,
+        "hash": "4250856502055155148"
+    },
+    {
+        "url": "./outgame/effect/mission_list.cpk",
+        "file_path": "outgame/effect/mission_list.cpk",
+        "algorithm": "xxhash",
+        "size": 30856,
+        "hash": "10279891923758391185"
+    },
+    {
+        "url": "./outgame/effect/myp_10000.cpk",
+        "file_path": "outgame/effect/myp_10000.cpk",
+        "algorithm": "xxhash",
+        "size": 202984,
+        "hash": "14451659747044503027"
+    },
+    {
+        "url": "./outgame/effect/myp_11000.cpk",
+        "file_path": "outgame/effect/myp_11000.cpk",
+        "algorithm": "xxhash",
+        "size": 46668752,
+        "hash": "8904002671964111006"
+    },
+    {
+        "url": "./outgame/effect/myp_12000.cpk",
+        "file_path": "outgame/effect/myp_12000.cpk",
+        "algorithm": "xxhash",
+        "size": 43176,
+        "hash": "12876778629884477358"
+    },
+    {
+        "url": "./outgame/effect/myp_13000.cpk",
+        "file_path": "outgame/effect/myp_13000.cpk",
+        "algorithm": "xxhash",
+        "size": 133264,
+        "hash": "15962747212186607228"
+    },
+    {
+        "url": "./outgame/effect/myp_13001.cpk",
+        "file_path": "outgame/effect/myp_13001.cpk",
+        "algorithm": "xxhash",
+        "size": 516264,
+        "hash": "3692580857646292516"
+    },
+    {
+        "url": "./outgame/effect/myp_14000.cpk",
+        "file_path": "outgame/effect/myp_14000.cpk",
+        "algorithm": "xxhash",
+        "size": 39096,
+        "hash": "7703137279239938846"
+    },
+    {
+        "url": "./outgame/effect/myp_15000.cpk",
+        "file_path": "outgame/effect/myp_15000.cpk",
+        "algorithm": "xxhash",
+        "size": 12424,
+        "hash": "16599137417428434683"
+    },
+    {
+        "url": "./outgame/effect/porunga_10000.cpk",
+        "file_path": "outgame/effect/porunga_10000.cpk",
+        "algorithm": "xxhash",
+        "size": 112784,
+        "hash": "1787758428203089072"
+    },
+    {
+        "url": "./outgame/effect/potential_00000.cpk",
+        "file_path": "outgame/effect/potential_00000.cpk",
+        "algorithm": "xxhash",
+        "size": 794776,
+        "hash": "15593679623540500389"
+    },
+    {
+        "url": "./outgame/effect/random_login_00000.cpk",
+        "file_path": "outgame/effect/random_login_00000.cpk",
+        "algorithm": "xxhash",
+        "size": 34960,
+        "hash": "715729206527836239"
+    },
+    {
+        "url": "./outgame/effect/random_login_00001.cpk",
+        "file_path": "outgame/effect/random_login_00001.cpk",
+        "algorithm": "xxhash",
+        "size": 1929472,
+        "hash": "4055129439862829355"
+    },
+    {
+        "url": "./outgame/effect/random_login_00002.cpk",
+        "file_path": "outgame/effect/random_login_00002.cpk",
+        "algorithm": "xxhash",
+        "size": 2695384,
+        "hash": "12826479137330618206"
+    },
+    {
+        "url": "./outgame/effect/random_login_00003.cpk",
+        "file_path": "outgame/effect/random_login_00003.cpk",
+        "algorithm": "xxhash",
+        "size": 5409072,
+        "hash": "8741467847217345488"
+    },
+    {
+        "url": "./outgame/effect/secretbox.cpk",
+        "file_path": "outgame/effect/secretbox.cpk",
+        "algorithm": "xxhash",
+        "size": 141464,
+        "hash": "15018211487927006771"
+    },
+    {
+        "url": "./outgame/effect/souryokusen_10000.cpk",
+        "file_path": "outgame/effect/souryokusen_10000.cpk",
+        "algorithm": "xxhash",
+        "size": 235656,
+        "hash": "13874467764521979062"
+    },
+    {
+        "url": "./outgame/effect/souryokusen_20000.cpk",
+        "file_path": "outgame/effect/souryokusen_20000.cpk",
+        "algorithm": "xxhash",
+        "size": 247944,
+        "hash": "328339774458438752"
+    },
+    {
+        "url": "./outgame/effect/subscription_dialog.cpk",
+        "file_path": "outgame/effect/subscription_dialog.cpk",
+        "algorithm": "xxhash",
+        "size": 600304,
+        "hash": "7578201843759913153"
+    },
+    {
+        "url": "./outgame/effect/support_memory_complete.cpk",
+        "file_path": "outgame/effect/support_memory_complete.cpk",
+        "algorithm": "xxhash",
+        "size": 59528,
+        "hash": "1249299134409044420"
+    },
+    {
+        "url": "./outgame/effect/ww_mission.cpk",
+        "file_path": "outgame/effect/ww_mission.cpk",
+        "algorithm": "xxhash",
+        "size": 53488,
+        "hash": "13085359064012153762"
+    },
+    {
+        "url": "./outgame/effect/zbattle_10000.cpk",
+        "file_path": "outgame/effect/zbattle_10000.cpk",
+        "algorithm": "xxhash",
+        "size": 374944,
+        "hash": "12918191491463007855"
+    },
+    {
+        "url": "./outgame/effect/zbattle_10001.cpk",
+        "file_path": "outgame/effect/zbattle_10001.cpk",
+        "algorithm": "xxhash",
+        "size": 194712,
+        "hash": "4806971264053537667"
+    },
+    {
+        "url": "./outgame/effect/zbattle_10002.cpk",
+        "file_path": "outgame/effect/zbattle_10002.cpk",
+        "algorithm": "xxhash",
+        "size": 223392,
+        "hash": "3917023301442580624"
+    },
+    {
+        "url": "./outgame/effect/zbattle_10003.cpk",
+        "file_path": "outgame/effect/zbattle_10003.cpk",
+        "algorithm": "xxhash",
+        "size": 237712,
+        "hash": "15996315167830367403"
+    },
+    {
+        "url": "./outgame/effect/zbattle_10004.cpk",
+        "file_path": "outgame/effect/zbattle_10004.cpk",
+        "algorithm": "xxhash",
+        "size": 243872,
+        "hash": "4215661006010881591"
+    },
+    {
+        "url": "./outgame/effect/zbattle_10005.cpk",
+        "file_path": "outgame/effect/zbattle_10005.cpk",
+        "algorithm": "xxhash",
+        "size": 32912,
+        "hash": "5619767022279008646"
+    },
+    {
+        "url": "./outgame/effect/zbattle_textures.cpk",
+        "file_path": "outgame/effect/zbattle_textures.cpk",
+        "algorithm": "xxhash",
+        "size": 104721608,
+        "hash": "14535677136687878382"
+    },
+    {
+        "url": "./outgame/extension/area_icon/001.cpk",
+        "file_path": "outgame/extension/area_icon/001.cpk",
+        "algorithm": "xxhash",
+        "size": 20616,
+        "hash": "14409849591311869134"
+    },
+    {
+        "url": "./outgame/extension/area_icon/002.cpk",
+        "file_path": "outgame/extension/area_icon/002.cpk",
+        "algorithm": "xxhash",
+        "size": 30856,
+        "hash": "13629543326358211948"
+    },
+    {
+        "url": "./outgame/extension/area_icon/003.cpk",
+        "file_path": "outgame/extension/area_icon/003.cpk",
+        "algorithm": "xxhash",
+        "size": 39048,
+        "hash": "5180398932589088340"
+    },
+    {
+        "url": "./outgame/extension/area_icon/004.cpk",
+        "file_path": "outgame/extension/area_icon/004.cpk",
+        "algorithm": "xxhash",
+        "size": 16520,
+        "hash": "938861887891810754"
+    },
+    {
+        "url": "./outgame/extension/area_icon/005.cpk",
+        "file_path": "outgame/extension/area_icon/005.cpk",
+        "algorithm": "xxhash",
+        "size": 37000,
+        "hash": "4907649370268103452"
+    },
+    {
+        "url": "./outgame/extension/area_icon/006.cpk",
+        "file_path": "outgame/extension/area_icon/006.cpk",
+        "algorithm": "xxhash",
+        "size": 30856,
+        "hash": "13206116608817522268"
+    },
+    {
+        "url": "./outgame/extension/area_icon/007.cpk",
+        "file_path": "outgame/extension/area_icon/007.cpk",
+        "algorithm": "xxhash",
+        "size": 43144,
+        "hash": "15612104594637507472"
+    },
+    {
+        "url": "./outgame/extension/area_icon/008.cpk",
+        "file_path": "outgame/extension/area_icon/008.cpk",
+        "algorithm": "xxhash",
+        "size": 22664,
+        "hash": "17416436533466554626"
+    },
+    {
+        "url": "./outgame/extension/area_icon/009.cpk",
+        "file_path": "outgame/extension/area_icon/009.cpk",
+        "algorithm": "xxhash",
+        "size": 39048,
+        "hash": "17965276893590477987"
+    },
+    {
+        "url": "./outgame/extension/area_icon/010.cpk",
+        "file_path": "outgame/extension/area_icon/010.cpk",
+        "algorithm": "xxhash",
+        "size": 18568,
+        "hash": "85001997405376115"
+    },
+    {
+        "url": "./outgame/extension/area_icon/011.cpk",
+        "file_path": "outgame/extension/area_icon/011.cpk",
+        "algorithm": "xxhash",
+        "size": 18568,
+        "hash": "806680619469756813"
+    },
+    {
+        "url": "./outgame/extension/area_icon/012.cpk",
+        "file_path": "outgame/extension/area_icon/012.cpk",
+        "algorithm": "xxhash",
+        "size": 26760,
+        "hash": "15114417979415162992"
+    },
+    {
+        "url": "./outgame/extension/area_icon/013.cpk",
+        "file_path": "outgame/extension/area_icon/013.cpk",
+        "algorithm": "xxhash",
+        "size": 18568,
+        "hash": "15197382850686274738"
+    },
+    {
+        "url": "./outgame/extension/area_icon/014.cpk",
+        "file_path": "outgame/extension/area_icon/014.cpk",
+        "algorithm": "xxhash",
+        "size": 24712,
+        "hash": "6013220484323640157"
+    },
+    {
+        "url": "./outgame/extension/area_icon/015.cpk",
+        "file_path": "outgame/extension/area_icon/015.cpk",
+        "algorithm": "xxhash",
+        "size": 28808,
+        "hash": "3045094786167691437"
+    },
+    {
+        "url": "./outgame/extension/area_icon/016.cpk",
+        "file_path": "outgame/extension/area_icon/016.cpk",
+        "algorithm": "xxhash",
+        "size": 26760,
+        "hash": "92178056968991123"
+    },
+    {
+        "url": "./outgame/extension/area_icon/017.cpk",
+        "file_path": "outgame/extension/area_icon/017.cpk",
+        "algorithm": "xxhash",
+        "size": 37000,
+        "hash": "4911006841090232608"
+    },
+    {
+        "url": "./outgame/extension/area_icon/018.cpk",
+        "file_path": "outgame/extension/area_icon/018.cpk",
+        "algorithm": "xxhash",
+        "size": 39048,
+        "hash": "16338195050832632626"
+    },
+    {
+        "url": "./outgame/extension/area_icon/019.cpk",
+        "file_path": "outgame/extension/area_icon/019.cpk",
+        "algorithm": "xxhash",
+        "size": 14472,
+        "hash": "14436761845173611111"
+    },
+    {
+        "url": "./outgame/extension/area_icon/020.cpk",
+        "file_path": "outgame/extension/area_icon/020.cpk",
+        "algorithm": "xxhash",
+        "size": 24712,
+        "hash": "15231050142016184759"
+    },
+    {
+        "url": "./outgame/extension/area_icon/021.cpk",
+        "file_path": "outgame/extension/area_icon/021.cpk",
+        "algorithm": "xxhash",
+        "size": 67720,
+        "hash": "13303000634353842620"
+    },
+    {
+        "url": "./outgame/extension/area_icon/022.cpk",
+        "file_path": "outgame/extension/area_icon/022.cpk",
+        "algorithm": "xxhash",
+        "size": 24712,
+        "hash": "5766901537339083231"
+    },
+    {
+        "url": "./outgame/extension/area_icon/023.cpk",
+        "file_path": "outgame/extension/area_icon/023.cpk",
+        "algorithm": "xxhash",
+        "size": 26760,
+        "hash": "5356253355923621157"
+    },
+    {
+        "url": "./outgame/extension/area_icon/024.cpk",
+        "file_path": "outgame/extension/area_icon/024.cpk",
+        "algorithm": "xxhash",
+        "size": 26760,
+        "hash": "2731032164436418432"
+    },
+    {
+        "url": "./outgame/extension/area_icon/025.cpk",
+        "file_path": "outgame/extension/area_icon/025.cpk",
+        "algorithm": "xxhash",
+        "size": 24712,
+        "hash": "16648561318079464251"
+    },
+    {
+        "url": "./outgame/extension/area_icon/026.cpk",
+        "file_path": "outgame/extension/area_icon/026.cpk",
+        "algorithm": "xxhash",
+        "size": 26760,
+        "hash": "17724445943734891524"
+    },
+    {
+        "url": "./outgame/extension/area_icon/027.cpk",
+        "file_path": "outgame/extension/area_icon/027.cpk",
+        "algorithm": "xxhash",
+        "size": 45192,
+        "hash": "12459092548430999383"
+    },
+    {
+        "url": "./outgame/extension/area_icon/028.cpk",
+        "file_path": "outgame/extension/area_icon/028.cpk",
+        "algorithm": "xxhash",
+        "size": 20616,
+        "hash": "18169746622986344704"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_001.cpk",
+        "file_path": "outgame/extension/area_map/area_map_001.cpk",
+        "algorithm": "xxhash",
+        "size": 415872,
+        "hash": "15461904827481926474"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_004.cpk",
+        "file_path": "outgame/extension/area_map/area_map_004.cpk",
+        "algorithm": "xxhash",
+        "size": 405632,
+        "hash": "11741106457047318210"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_005.cpk",
+        "file_path": "outgame/extension/area_map/area_map_005.cpk",
+        "algorithm": "xxhash",
+        "size": 399488,
+        "hash": "1122045740167469562"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_006.cpk",
+        "file_path": "outgame/extension/area_map/area_map_006.cpk",
+        "algorithm": "xxhash",
+        "size": 374912,
+        "hash": "15858285592389595408"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_012.cpk",
+        "file_path": "outgame/extension/area_map/area_map_012.cpk",
+        "algorithm": "xxhash",
+        "size": 436352,
+        "hash": "561738776931437632"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_014.cpk",
+        "file_path": "outgame/extension/area_map/area_map_014.cpk",
+        "algorithm": "xxhash",
+        "size": 391296,
+        "hash": "14705702823245303406"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_016.cpk",
+        "file_path": "outgame/extension/area_map/area_map_016.cpk",
+        "algorithm": "xxhash",
+        "size": 417920,
+        "hash": "3787732075864680476"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_021.cpk",
+        "file_path": "outgame/extension/area_map/area_map_021.cpk",
+        "algorithm": "xxhash",
+        "size": 383104,
+        "hash": "10004644842853895931"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_023.cpk",
+        "file_path": "outgame/extension/area_map/area_map_023.cpk",
+        "algorithm": "xxhash",
+        "size": 346240,
+        "hash": "9734999534632465916"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_027.cpk",
+        "file_path": "outgame/extension/area_map/area_map_027.cpk",
+        "algorithm": "xxhash",
+        "size": 395392,
+        "hash": "8014474343385866261"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_028.cpk",
+        "file_path": "outgame/extension/area_map/area_map_028.cpk",
+        "algorithm": "xxhash",
+        "size": 391296,
+        "hash": "14742415421437216431"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_029.cpk",
+        "file_path": "outgame/extension/area_map/area_map_029.cpk",
+        "algorithm": "xxhash",
+        "size": 424064,
+        "hash": "16371962316862599313"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_030.cpk",
+        "file_path": "outgame/extension/area_map/area_map_030.cpk",
+        "algorithm": "xxhash",
+        "size": 327808,
+        "hash": "3005966227584115633"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_031.cpk",
+        "file_path": "outgame/extension/area_map/area_map_031.cpk",
+        "algorithm": "xxhash",
+        "size": 428160,
+        "hash": "16843685179192363871"
+    },
+    {
+        "url": "./outgame/extension/area_map/area_map_101.cpk",
+        "file_path": "outgame/extension/area_map/area_map_101.cpk",
+        "algorithm": "xxhash",
+        "size": 383104,
+        "hash": "17961292008708372147"
+    },
+    {
+        "url": "./outgame/extension/campaign_mission.cpk",
+        "file_path": "outgame/extension/campaign_mission.cpk",
+        "algorithm": "xxhash",
+        "size": 8328,
+        "hash": "18443246553284024046"
+    },
+    {
+        "url": "./outgame/extension/character_detail/en/character_detail.cpk",
+        "file_path": "outgame/extension/character_detail/en/character_detail.cpk",
+        "algorithm": "xxhash",
+        "size": 59616,
+        "hash": "9366761591677493838"
+    },
+    {
+        "url": "./outgame/extension/collection/collection.cpk",
+        "file_path": "outgame/extension/collection/collection.cpk",
+        "algorithm": "xxhash",
+        "size": 905448,
+        "hash": "15963653247912497668"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/1.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/1.cpk",
+        "algorithm": "xxhash",
+        "size": 1667248,
+        "hash": "4443904779308397583"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/10.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/10.cpk",
+        "algorithm": "xxhash",
+        "size": 186496,
+        "hash": "17718522481601053832"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/100.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/100.cpk",
+        "algorithm": "xxhash",
+        "size": 1153192,
+        "hash": "660408270290529569"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/101.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/101.cpk",
+        "algorithm": "xxhash",
+        "size": 1163432,
+        "hash": "4730115869927093471"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/102.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/102.cpk",
+        "algorithm": "xxhash",
+        "size": 1165480,
+        "hash": "1053672434102940222"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/103.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/103.cpk",
+        "algorithm": "xxhash",
+        "size": 1155240,
+        "hash": "8777541465756704613"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/104.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/104.cpk",
+        "algorithm": "xxhash",
+        "size": 1163432,
+        "hash": "15484687084328643272"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/105.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/105.cpk",
+        "algorithm": "xxhash",
+        "size": 1151144,
+        "hash": "11222788236610766808"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/106.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/106.cpk",
+        "algorithm": "xxhash",
+        "size": 1153192,
+        "hash": "15001483353185170356"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/107.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/107.cpk",
+        "algorithm": "xxhash",
+        "size": 1163432,
+        "hash": "16474228165711074587"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/108.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/108.cpk",
+        "algorithm": "xxhash",
+        "size": 1165480,
+        "hash": "5399474429720604500"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/109.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/109.cpk",
+        "algorithm": "xxhash",
+        "size": 1155240,
+        "hash": "10001666931757716690"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/11.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/11.cpk",
+        "algorithm": "xxhash",
+        "size": 186496,
+        "hash": "358355720709352105"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/110.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/110.cpk",
+        "algorithm": "xxhash",
+        "size": 1163432,
+        "hash": "5191658572003992661"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/111.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/111.cpk",
+        "algorithm": "xxhash",
+        "size": 1151144,
+        "hash": "4173130166382790749"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/112.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/112.cpk",
+        "algorithm": "xxhash",
+        "size": 1153192,
+        "hash": "6025955634708275063"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/113.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/113.cpk",
+        "algorithm": "xxhash",
+        "size": 1163432,
+        "hash": "15231977879816903708"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/114.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/114.cpk",
+        "algorithm": "xxhash",
+        "size": 1165480,
+        "hash": "12819462234354419952"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/115.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/115.cpk",
+        "algorithm": "xxhash",
+        "size": 1155240,
+        "hash": "17617617610819439970"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/116.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/116.cpk",
+        "algorithm": "xxhash",
+        "size": 1163432,
+        "hash": "7071972719917342946"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/117.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/117.cpk",
+        "algorithm": "xxhash",
+        "size": 1151144,
+        "hash": "15524874347024433615"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/118.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/118.cpk",
+        "algorithm": "xxhash",
+        "size": 1036456,
+        "hash": "8084199741819669908"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/119.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/119.cpk",
+        "algorithm": "xxhash",
+        "size": 905384,
+        "hash": "16615725060688723870"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/12.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/12.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "10948753127473282627"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/120.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/120.cpk",
+        "algorithm": "xxhash",
+        "size": 909480,
+        "hash": "7255962989550063035"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/121.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/121.cpk",
+        "algorithm": "xxhash",
+        "size": 1028264,
+        "hash": "3862054976683721765"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/122.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/122.cpk",
+        "algorithm": "xxhash",
+        "size": 905384,
+        "hash": "15184034591086535700"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/123.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/123.cpk",
+        "algorithm": "xxhash",
+        "size": 905384,
+        "hash": "4790369072057342566"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/13.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/13.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "2214772151572013624"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/14.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/14.cpk",
+        "algorithm": "xxhash",
+        "size": 153728,
+        "hash": "17804534084185460512"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/15.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/15.cpk",
+        "algorithm": "xxhash",
+        "size": 157824,
+        "hash": "18283296405336888119"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/16.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/16.cpk",
+        "algorithm": "xxhash",
+        "size": 159872,
+        "hash": "15689197404113841452"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/17.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/17.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "143795854184874660"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/18.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/18.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "16154539871623844639"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/19.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/19.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "7585793158541874622"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/2.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/2.cpk",
+        "algorithm": "xxhash",
+        "size": 1661104,
+        "hash": "945985626369418130"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/20.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/20.cpk",
+        "algorithm": "xxhash",
+        "size": 153728,
+        "hash": "7735830674106635500"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/21.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/21.cpk",
+        "algorithm": "xxhash",
+        "size": 157824,
+        "hash": "2667548363929706570"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/22.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/22.cpk",
+        "algorithm": "xxhash",
+        "size": 159872,
+        "hash": "10288062076673442223"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/23.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/23.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "3332156422812383918"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/24.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/24.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "18316106842959221116"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/25.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/25.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "6217365655372669348"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/26.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/26.cpk",
+        "algorithm": "xxhash",
+        "size": 153728,
+        "hash": "18193044745731099362"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/27.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/27.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "7215235918455507879"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/28.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/28.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "18356852229879943763"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/29.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/29.cpk",
+        "algorithm": "xxhash",
+        "size": 153728,
+        "hash": "16537350016425082283"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/3.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/3.cpk",
+        "algorithm": "xxhash",
+        "size": 1173680,
+        "hash": "2918908253680764293"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/30.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/30.cpk",
+        "algorithm": "xxhash",
+        "size": 157824,
+        "hash": "7715989382386990870"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/31.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/31.cpk",
+        "algorithm": "xxhash",
+        "size": 159872,
+        "hash": "671648052845224925"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/32.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/32.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "14387891009432255059"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/33.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/33.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "11073630169857501866"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/34.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/34.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "710084772896317456"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/35.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/35.cpk",
+        "algorithm": "xxhash",
+        "size": 153728,
+        "hash": "14167032163140111703"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/36.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/36.cpk",
+        "algorithm": "xxhash",
+        "size": 157824,
+        "hash": "3649884144420468792"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/37.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/37.cpk",
+        "algorithm": "xxhash",
+        "size": 159872,
+        "hash": "2292793186851079451"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/38.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/38.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "18165195371496621636"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/39.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/39.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "12796799190029765963"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/4.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/4.cpk",
+        "algorithm": "xxhash",
+        "size": 1671344,
+        "hash": "14481198494569617925"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/40.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/40.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "14838836804607137827"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/41.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/41.cpk",
+        "algorithm": "xxhash",
+        "size": 153728,
+        "hash": "8278325827805643093"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/42.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/42.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "12796799190029765963"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/43.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/43.cpk",
+        "algorithm": "xxhash",
+        "size": 155776,
+        "hash": "14838836804607137827"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/44.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/44.cpk",
+        "algorithm": "xxhash",
+        "size": 153728,
+        "hash": "8278325827805643093"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/5.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/5.cpk",
+        "algorithm": "xxhash",
+        "size": 1702064,
+        "hash": "11417419634806598525"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/6.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/6.cpk",
+        "algorithm": "xxhash",
+        "size": 188544,
+        "hash": "14336531881423835967"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/7.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/7.cpk",
+        "algorithm": "xxhash",
+        "size": 186496,
+        "hash": "3410388072045812603"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/8.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/8.cpk",
+        "algorithm": "xxhash",
+        "size": 186496,
+        "hash": "14633691433400495451"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/9.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/9.cpk",
+        "algorithm": "xxhash",
+        "size": 188544,
+        "hash": "12641227574244598849"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/91.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/91.cpk",
+        "algorithm": "xxhash",
+        "size": 829616,
+        "hash": "3188494070256167465"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/92.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/92.cpk",
+        "algorithm": "xxhash",
+        "size": 827568,
+        "hash": "15054013330158001170"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/93.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/93.cpk",
+        "algorithm": "xxhash",
+        "size": 829616,
+        "hash": "11002140418752458384"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/94.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/94.cpk",
+        "algorithm": "xxhash",
+        "size": 1493160,
+        "hash": "1998081105963501073"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/95.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/95.cpk",
+        "algorithm": "xxhash",
+        "size": 1755304,
+        "hash": "6336939451592808143"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/96.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/96.cpk",
+        "algorithm": "xxhash",
+        "size": 991400,
+        "hash": "8968435617944584331"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/97.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/97.cpk",
+        "algorithm": "xxhash",
+        "size": 1267880,
+        "hash": "7715230570882160158"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/98.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/98.cpk",
+        "algorithm": "xxhash",
+        "size": 1288360,
+        "hash": "2424090863522966363"
+    },
+    {
+        "url": "./outgame/extension/comeback_campaigns/99.cpk",
+        "file_path": "outgame/extension/comeback_campaigns/99.cpk",
+        "algorithm": "xxhash",
+        "size": 1259688,
+        "hash": "12658520004820781065"
+    },
+    {
+        "url": "./outgame/extension/difficulty/base.cpk",
+        "file_path": "outgame/extension/difficulty/base.cpk",
+        "algorithm": "xxhash",
+        "size": 121056,
+        "hash": "12057738454810458732"
+    },
+    {
+        "url": "./outgame/extension/difficulty/icon.cpk",
+        "file_path": "outgame/extension/difficulty/icon.cpk",
+        "algorithm": "xxhash",
+        "size": 49320,
+        "hash": "4550355408457207796"
+    },
+    {
+        "url": "./outgame/extension/difficulty/spm_icon.cpk",
+        "file_path": "outgame/extension/difficulty/spm_icon.cpk",
+        "algorithm": "xxhash",
+        "size": 28936,
+        "hash": "3558285533230226657"
+    },
+    {
+        "url": "./outgame/extension/en.cpk",
+        "file_path": "outgame/extension/en.cpk",
+        "algorithm": "xxhash",
+        "size": 32968,
+        "hash": "16878836948121288566"
+    },
+    {
+        "url": "./outgame/extension/event/eve_banner/event_banner_101.cpk",
+        "file_path": "outgame/extension/event/eve_banner/event_banner_101.cpk",
+        "algorithm": "xxhash",
+        "size": 51328,
+        "hash": "12696864778603591589"
+    },
+    {
+        "url": "./outgame/extension/event/eve_banner/event_banner_102.cpk",
+        "file_path": "outgame/extension/event/eve_banner/event_banner_102.cpk",
+        "algorithm": "xxhash",
+        "size": 51328,
+        "hash": "9177863430152600735"
+    },
+    {
+        "url": "./outgame/extension/event/eve_banner/event_banner_103.cpk",
+        "file_path": "outgame/extension/event/eve_banner/event_banner_103.cpk",
+        "algorithm": "xxhash",
+        "size": 49280,
+        "hash": "3231532276965237877"
+    },
+    {
+        "url": "./outgame/extension/event/eve_banner/event_banner_104.cpk",
+        "file_path": "outgame/extension/event/eve_banner/event_banner_104.cpk",
+        "algorithm": "xxhash",
+        "size": 55424,
+        "hash": "10029207140720719506"
+    },
+    {
+        "url": "./outgame/extension/event/eve_banner/event_banner_105.cpk",
+        "file_path": "outgame/extension/event/eve_banner/event_banner_105.cpk",
+        "algorithm": "xxhash",
+        "size": 53376,
+        "hash": "5630488663975203486"
+    },
+    {
+        "url": "./outgame/extension/event/eve_banner/event_banner_115.cpk",
+        "file_path": "outgame/extension/event/eve_banner/event_banner_115.cpk",
+        "algorithm": "xxhash",
+        "size": 45184,
+        "hash": "17579968099228640619"
+    },
+    {
+        "url": "./outgame/extension/event/eve_banner/event_banner_120.cpk",
+        "file_path": "outgame/extension/event/eve_banner/event_banner_120.cpk",
+        "algorithm": "xxhash",
+        "size": 57472,
+        "hash": "4680594154482169372"
+    },
+    {
+        "url": "./outgame/extension/event/eve_header/event_image_101.cpk",
+        "file_path": "outgame/extension/event/eve_header/event_image_101.cpk",
+        "algorithm": "xxhash",
+        "size": 206976,
+        "hash": "18032184498177830865"
+    },
+    {
+        "url": "./outgame/extension/event/eve_header/event_image_102.cpk",
+        "file_path": "outgame/extension/event/eve_header/event_image_102.cpk",
+        "algorithm": "xxhash",
+        "size": 206976,
+        "hash": "4987060572770235599"
+    },
+    {
+        "url": "./outgame/extension/event/eve_header/event_image_103.cpk",
+        "file_path": "outgame/extension/event/eve_header/event_image_103.cpk",
+        "algorithm": "xxhash",
+        "size": 206976,
+        "hash": "7737181580494045045"
+    },
+    {
+        "url": "./outgame/extension/event/eve_header/event_image_104.cpk",
+        "file_path": "outgame/extension/event/eve_header/event_image_104.cpk",
+        "algorithm": "xxhash",
+        "size": 206976,
+        "hash": "765359475806505511"
+    },
+    {
+        "url": "./outgame/extension/event/eve_header/event_image_105.cpk",
+        "file_path": "outgame/extension/event/eve_header/event_image_105.cpk",
+        "algorithm": "xxhash",
+        "size": 206976,
+        "hash": "2639928945494330852"
+    },
+    {
+        "url": "./outgame/extension/event/eve_header/event_image_115.cpk",
+        "file_path": "outgame/extension/event/eve_header/event_image_115.cpk",
+        "algorithm": "xxhash",
+        "size": 206976,
+        "hash": "8113808211206247521"
+    },
+    {
+        "url": "./outgame/extension/event/eve_header/event_image_120.cpk",
+        "file_path": "outgame/extension/event/eve_header/event_image_120.cpk",
+        "algorithm": "xxhash",
+        "size": 235648,
+        "hash": "12384026553172033865"
+    },
+    {
+        "url": "./outgame/extension/event/eve_icon.cpk",
+        "file_path": "outgame/extension/event/eve_icon.cpk",
+        "algorithm": "xxhash",
+        "size": 69872,
+        "hash": "10596412082884355639"
+    },
+    {
+        "url": "./outgame/extension/mission_announcement.cpk",
+        "file_path": "outgame/extension/mission_announcement.cpk",
+        "algorithm": "xxhash",
+        "size": 61696,
+        "hash": "7480281179722133520"
+    },
+    {
+        "url": "./outgame/extension/potential.cpk",
+        "file_path": "outgame/extension/potential.cpk",
+        "algorithm": "xxhash",
+        "size": 860680,
+        "hash": "17149590145374961669"
+    },
+    {
+        "url": "./outgame/extension/random_login_bonus.cpk",
+        "file_path": "outgame/extension/random_login_bonus.cpk",
+        "algorithm": "xxhash",
+        "size": 475336,
+        "hash": "16958885218267589854"
+    },
+    {
+        "url": "./outgame/extension/released_event/000002.cpk",
+        "file_path": "outgame/extension/released_event/000002.cpk",
+        "algorithm": "xxhash",
+        "size": 506040,
+        "hash": "10241463732983118726"
+    },
+    {
+        "url": "./outgame/extension/released_event/000003.cpk",
+        "file_path": "outgame/extension/released_event/000003.cpk",
+        "algorithm": "xxhash",
+        "size": 792768,
+        "hash": "4190051780712883397"
+    },
+    {
+        "url": "./outgame/extension/released_event/000004.cpk",
+        "file_path": "outgame/extension/released_event/000004.cpk",
+        "algorithm": "xxhash",
+        "size": 1296552,
+        "hash": "15975808411971177563"
+    },
+    {
+        "url": "./outgame/extension/released_event/000005.cpk",
+        "file_path": "outgame/extension/released_event/000005.cpk",
+        "algorithm": "xxhash",
+        "size": 1214672,
+        "hash": "4178354924278601329"
+    },
+    {
+        "url": "./outgame/extension/released_event/000006.cpk",
+        "file_path": "outgame/extension/released_event/000006.cpk",
+        "algorithm": "xxhash",
+        "size": 524456,
+        "hash": "3388162887882740892"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_A.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_A.cpk",
+        "algorithm": "xxhash",
+        "size": 643200,
+        "hash": "2069141922512903005"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_B.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_B.cpk",
+        "algorithm": "xxhash",
+        "size": 452736,
+        "hash": "490151906694164186"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_C.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_C.cpk",
+        "algorithm": "xxhash",
+        "size": 327808,
+        "hash": "8340186399118630315"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_D.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_D.cpk",
+        "algorithm": "xxhash",
+        "size": 319616,
+        "hash": "2070461650502665818"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_E.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_E.cpk",
+        "algorithm": "xxhash",
+        "size": 442496,
+        "hash": "7989578982905669523"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_F.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_F.cpk",
+        "algorithm": "xxhash",
+        "size": 417920,
+        "hash": "7241397970599103690"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_G.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_G.cpk",
+        "algorithm": "xxhash",
+        "size": 358528,
+        "hash": "14390966159015192779"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_H.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_H.cpk",
+        "algorithm": "xxhash",
+        "size": 565376,
+        "hash": "8061564085903541561"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_I.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_I.cpk",
+        "algorithm": "xxhash",
+        "size": 508032,
+        "hash": "5001288396786640018"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_2_tips_image_J.cpk",
+        "file_path": "outgame/extension/tips/3dl_2_tips_image_J.cpk",
+        "algorithm": "xxhash",
+        "size": 352384,
+        "hash": "5742323868874116016"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_countdown_tips_image_20190820.cpk",
+        "file_path": "outgame/extension/tips/3dl_countdown_tips_image_20190820.cpk",
+        "algorithm": "xxhash",
+        "size": 544896,
+        "hash": "16880889864952230840"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_countdown_tips_image_20190821.cpk",
+        "file_path": "outgame/extension/tips/3dl_countdown_tips_image_20190821.cpk",
+        "algorithm": "xxhash",
+        "size": 518272,
+        "hash": "3944943935619764629"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_countdown_tips_image_20190822.cpk",
+        "file_path": "outgame/extension/tips/3dl_countdown_tips_image_20190822.cpk",
+        "algorithm": "xxhash",
+        "size": 419968,
+        "hash": "8683933668120096889"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_countdown_tips_image_20190823.cpk",
+        "file_path": "outgame/extension/tips/3dl_countdown_tips_image_20190823.cpk",
+        "algorithm": "xxhash",
+        "size": 374912,
+        "hash": "14080827188772131075"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_countdown_tips_image_20190824.cpk",
+        "file_path": "outgame/extension/tips/3dl_countdown_tips_image_20190824.cpk",
+        "algorithm": "xxhash",
+        "size": 424064,
+        "hash": "10246376045324362927"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_countdown_tips_image_20190825.cpk",
+        "file_path": "outgame/extension/tips/3dl_countdown_tips_image_20190825.cpk",
+        "algorithm": "xxhash",
+        "size": 512128,
+        "hash": "7097239764178811965"
+    },
+    {
+        "url": "./outgame/extension/tips/3dl_countdown_tips_image_20190826.cpk",
+        "file_path": "outgame/extension/tips/3dl_countdown_tips_image_20190826.cpk",
+        "algorithm": "xxhash",
+        "size": 399488,
+        "hash": "17893786707224181347"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_aniversary_image_A.cpk",
+        "file_path": "outgame/extension/tips/4th_aniversary_image_A.cpk",
+        "algorithm": "xxhash",
+        "size": 415872,
+        "hash": "9138060894459700301"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_aniversary_image_B.cpk",
+        "file_path": "outgame/extension/tips/4th_aniversary_image_B.cpk",
+        "algorithm": "xxhash",
+        "size": 452736,
+        "hash": "14834542561523188589"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_aniversary_image_C.cpk",
+        "file_path": "outgame/extension/tips/4th_aniversary_image_C.cpk",
+        "algorithm": "xxhash",
+        "size": 432256,
+        "hash": "6948170134269571973"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_aniversary_image_D.cpk",
+        "file_path": "outgame/extension/tips/4th_aniversary_image_D.cpk",
+        "algorithm": "xxhash",
+        "size": 407680,
+        "hash": "10248826342033424071"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_aniversary_image_E.cpk",
+        "file_path": "outgame/extension/tips/4th_aniversary_image_E.cpk",
+        "algorithm": "xxhash",
+        "size": 403584,
+        "hash": "8033911083600849196"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_countdown_tips_image_20190122.cpk",
+        "file_path": "outgame/extension/tips/4th_countdown_tips_image_20190122.cpk",
+        "algorithm": "xxhash",
+        "size": 411776,
+        "hash": "7212576545310498406"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_countdown_tips_image_20190123.cpk",
+        "file_path": "outgame/extension/tips/4th_countdown_tips_image_20190123.cpk",
+        "algorithm": "xxhash",
+        "size": 690304,
+        "hash": "1183073358530893648"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_countdown_tips_image_20190124.cpk",
+        "file_path": "outgame/extension/tips/4th_countdown_tips_image_20190124.cpk",
+        "algorithm": "xxhash",
+        "size": 383104,
+        "hash": "8830285439373930726"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_countdown_tips_image_20190125.cpk",
+        "file_path": "outgame/extension/tips/4th_countdown_tips_image_20190125.cpk",
+        "algorithm": "xxhash",
+        "size": 491648,
+        "hash": "17039862617216450255"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_countdown_tips_image_20190126.cpk",
+        "file_path": "outgame/extension/tips/4th_countdown_tips_image_20190126.cpk",
+        "algorithm": "xxhash",
+        "size": 376960,
+        "hash": "16340420114889437813"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_countdown_tips_image_20190127.cpk",
+        "file_path": "outgame/extension/tips/4th_countdown_tips_image_20190127.cpk",
+        "algorithm": "xxhash",
+        "size": 374912,
+        "hash": "9940853354404620070"
+    },
+    {
+        "url": "./outgame/extension/tips/4th_countdown_tips_image_20190128.cpk",
+        "file_path": "outgame/extension/tips/4th_countdown_tips_image_20190128.cpk",
+        "algorithm": "xxhash",
+        "size": 411776,
+        "hash": "7061248956616618654"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_A.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_A.cpk",
+        "algorithm": "xxhash",
+        "size": 336000,
+        "hash": "10395227873796389129"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_B.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_B.cpk",
+        "algorithm": "xxhash",
+        "size": 422016,
+        "hash": "12710500712718594412"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_C.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_C.cpk",
+        "algorithm": "xxhash",
+        "size": 434304,
+        "hash": "15462482539994942102"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_D.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_D.cpk",
+        "algorithm": "xxhash",
+        "size": 176256,
+        "hash": "5717102081184189628"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_E.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_E.cpk",
+        "algorithm": "xxhash",
+        "size": 430208,
+        "hash": "16724607830090274775"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_F.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_F.cpk",
+        "algorithm": "xxhash",
+        "size": 448640,
+        "hash": "11962209465111001789"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_G.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_G.cpk",
+        "algorithm": "xxhash",
+        "size": 444544,
+        "hash": "3231602653753618129"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_aniversary_image_H.cpk",
+        "file_path": "outgame/extension/tips/5th_aniversary_image_H.cpk",
+        "algorithm": "xxhash",
+        "size": 434304,
+        "hash": "13151100589890094641"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_countdown_tips_image_20200122.cpk",
+        "file_path": "outgame/extension/tips/5th_countdown_tips_image_20200122.cpk",
+        "algorithm": "xxhash",
+        "size": 546944,
+        "hash": "12999991245048844023"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_countdown_tips_image_20200123.cpk",
+        "file_path": "outgame/extension/tips/5th_countdown_tips_image_20200123.cpk",
+        "algorithm": "xxhash",
+        "size": 655488,
+        "hash": "3387830020783790680"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_countdown_tips_image_20200124.cpk",
+        "file_path": "outgame/extension/tips/5th_countdown_tips_image_20200124.cpk",
+        "algorithm": "xxhash",
+        "size": 647296,
+        "hash": "6580446353602687702"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_countdown_tips_image_20200125.cpk",
+        "file_path": "outgame/extension/tips/5th_countdown_tips_image_20200125.cpk",
+        "algorithm": "xxhash",
+        "size": 649344,
+        "hash": "10780684715680382265"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_countdown_tips_image_20200126.cpk",
+        "file_path": "outgame/extension/tips/5th_countdown_tips_image_20200126.cpk",
+        "algorithm": "xxhash",
+        "size": 682112,
+        "hash": "9280689414410401496"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_countdown_tips_image_20200127.cpk",
+        "file_path": "outgame/extension/tips/5th_countdown_tips_image_20200127.cpk",
+        "algorithm": "xxhash",
+        "size": 376960,
+        "hash": "4372961387243323418"
+    },
+    {
+        "url": "./outgame/extension/tips/5th_countdown_tips_image_20200128.cpk",
+        "file_path": "outgame/extension/tips/5th_countdown_tips_image_20200128.cpk",
+        "algorithm": "xxhash",
+        "size": 430208,
+        "hash": "11125976802190593120"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_A.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_A.cpk",
+        "algorithm": "xxhash",
+        "size": 376960,
+        "hash": "16631008813889277352"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_B.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_B.cpk",
+        "algorithm": "xxhash",
+        "size": 477312,
+        "hash": "15819553524001878724"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_C.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_C.cpk",
+        "algorithm": "xxhash",
+        "size": 467072,
+        "hash": "657905828576979684"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_D.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_D.cpk",
+        "algorithm": "xxhash",
+        "size": 456832,
+        "hash": "16941481429484423734"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_E.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_E.cpk",
+        "algorithm": "xxhash",
+        "size": 456832,
+        "hash": "1221935590505588019"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_F.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_F.cpk",
+        "algorithm": "xxhash",
+        "size": 434304,
+        "hash": "14757630050412304092"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_G.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_G.cpk",
+        "algorithm": "xxhash",
+        "size": 487552,
+        "hash": "4020355195546293027"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_anniversary_image_H.cpk",
+        "file_path": "outgame/extension/tips/6th_anniversary_image_H.cpk",
+        "algorithm": "xxhash",
+        "size": 458880,
+        "hash": "8729265677866069557"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_countdown_tips_image_20210122.cpk",
+        "file_path": "outgame/extension/tips/6th_countdown_tips_image_20210122.cpk",
+        "algorithm": "xxhash",
+        "size": 268416,
+        "hash": "8707563819426377736"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_countdown_tips_image_20210123.cpk",
+        "file_path": "outgame/extension/tips/6th_countdown_tips_image_20210123.cpk",
+        "algorithm": "xxhash",
+        "size": 225408,
+        "hash": "7652838275352129824"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_countdown_tips_image_20210124.cpk",
+        "file_path": "outgame/extension/tips/6th_countdown_tips_image_20210124.cpk",
+        "algorithm": "xxhash",
+        "size": 237696,
+        "hash": "8883263053956872742"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_countdown_tips_image_20210125.cpk",
+        "file_path": "outgame/extension/tips/6th_countdown_tips_image_20210125.cpk",
+        "algorithm": "xxhash",
+        "size": 192640,
+        "hash": "622238773682376191"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_countdown_tips_image_20210126.cpk",
+        "file_path": "outgame/extension/tips/6th_countdown_tips_image_20210126.cpk",
+        "algorithm": "xxhash",
+        "size": 270464,
+        "hash": "10497002117463379062"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_countdown_tips_image_20210127.cpk",
+        "file_path": "outgame/extension/tips/6th_countdown_tips_image_20210127.cpk",
+        "algorithm": "xxhash",
+        "size": 299136,
+        "hash": "10838675351546093703"
+    },
+    {
+        "url": "./outgame/extension/tips/6th_countdown_tips_image_20210128.cpk",
+        "file_path": "outgame/extension/tips/6th_countdown_tips_image_20210128.cpk",
+        "algorithm": "xxhash",
+        "size": 336000,
+        "hash": "17045294622313800170"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_A.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_A.cpk",
+        "algorithm": "xxhash",
+        "size": 462976,
+        "hash": "12725414613118971702"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_B.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_B.cpk",
+        "algorithm": "xxhash",
+        "size": 479360,
+        "hash": "5579819089492371564"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_C.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_C.cpk",
+        "algorithm": "xxhash",
+        "size": 430208,
+        "hash": "11061524941409276083"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_D.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_D.cpk",
+        "algorithm": "xxhash",
+        "size": 424064,
+        "hash": "10839189100708128430"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_E.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_E.cpk",
+        "algorithm": "xxhash",
+        "size": 419968,
+        "hash": "8979077062165813925"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_F.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_F.cpk",
+        "algorithm": "xxhash",
+        "size": 370816,
+        "hash": "6762703783014894528"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_G.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_G.cpk",
+        "algorithm": "xxhash",
+        "size": 366720,
+        "hash": "4730857226120655937"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_anniversary_image_H.cpk",
+        "file_path": "outgame/extension/tips/7th_anniversary_image_H.cpk",
+        "algorithm": "xxhash",
+        "size": 389248,
+        "hash": "17653414530008296824"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_countdown_tips_image_20220122.cpk",
+        "file_path": "outgame/extension/tips/7th_countdown_tips_image_20220122.cpk",
+        "algorithm": "xxhash",
+        "size": 329856,
+        "hash": "7029920091917887867"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_countdown_tips_image_20220123.cpk",
+        "file_path": "outgame/extension/tips/7th_countdown_tips_image_20220123.cpk",
+        "algorithm": "xxhash",
+        "size": 325760,
+        "hash": "4789977079875307902"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_countdown_tips_image_20220124.cpk",
+        "file_path": "outgame/extension/tips/7th_countdown_tips_image_20220124.cpk",
+        "algorithm": "xxhash",
+        "size": 274560,
+        "hash": "17506396532415747793"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_countdown_tips_image_20220125.cpk",
+        "file_path": "outgame/extension/tips/7th_countdown_tips_image_20220125.cpk",
+        "algorithm": "xxhash",
+        "size": 407680,
+        "hash": "7927351051844066203"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_countdown_tips_image_20220126.cpk",
+        "file_path": "outgame/extension/tips/7th_countdown_tips_image_20220126.cpk",
+        "algorithm": "xxhash",
+        "size": 342144,
+        "hash": "18420376786170655567"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_countdown_tips_image_20220127.cpk",
+        "file_path": "outgame/extension/tips/7th_countdown_tips_image_20220127.cpk",
+        "algorithm": "xxhash",
+        "size": 411776,
+        "hash": "17466562640944202552"
+    },
+    {
+        "url": "./outgame/extension/tips/7th_countdown_tips_image_20220128.cpk",
+        "file_path": "outgame/extension/tips/7th_countdown_tips_image_20220128.cpk",
+        "algorithm": "xxhash",
+        "size": 331904,
+        "hash": "2087584212238842905"
+    },
+    {
+        "url": "./outgame/extension/tips/April_Fool_Tips_A.cpk",
+        "file_path": "outgame/extension/tips/April_Fool_Tips_A.cpk",
+        "algorithm": "xxhash",
+        "size": 71808,
+        "hash": "15193230230434484212"
+    },
+    {
+        "url": "./outgame/extension/tips/April_Fool_Tips_B.cpk",
+        "file_path": "outgame/extension/tips/April_Fool_Tips_B.cpk",
+        "algorithm": "xxhash",
+        "size": 57472,
+        "hash": "10625701616013927822"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_202009_tips_image_A.cpk",
+        "file_path": "outgame/extension/tips/dl_202009_tips_image_A.cpk",
+        "algorithm": "xxhash",
+        "size": 432256,
+        "hash": "11222490030197455218"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_202009_tips_image_B.cpk",
+        "file_path": "outgame/extension/tips/dl_202009_tips_image_B.cpk",
+        "algorithm": "xxhash",
+        "size": 436352,
+        "hash": "14713972038349409130"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_202009_tips_image_C.cpk",
+        "file_path": "outgame/extension/tips/dl_202009_tips_image_C.cpk",
+        "algorithm": "xxhash",
+        "size": 489600,
+        "hash": "3363223831736592703"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_202009_tips_image_D.cpk",
+        "file_path": "outgame/extension/tips/dl_202009_tips_image_D.cpk",
+        "algorithm": "xxhash",
+        "size": 430208,
+        "hash": "15628375948121635489"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_202009_tips_image_E.cpk",
+        "file_path": "outgame/extension/tips/dl_202009_tips_image_E.cpk",
+        "algorithm": "xxhash",
+        "size": 489600,
+        "hash": "8207221211911519063"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_202009_tips_image_F.cpk",
+        "file_path": "outgame/extension/tips/dl_202009_tips_image_F.cpk",
+        "algorithm": "xxhash",
+        "size": 503936,
+        "hash": "7192156711453179041"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_202009_tips_image_G.cpk",
+        "file_path": "outgame/extension/tips/dl_202009_tips_image_G.cpk",
+        "algorithm": "xxhash",
+        "size": 399488,
+        "hash": "5542657097830154664"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20200821.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20200821.cpk",
+        "algorithm": "xxhash",
+        "size": 340096,
+        "hash": "10399522023670312673"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20200822.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20200822.cpk",
+        "algorithm": "xxhash",
+        "size": 544896,
+        "hash": "8119825647761529565"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20200823.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20200823.cpk",
+        "algorithm": "xxhash",
+        "size": 383104,
+        "hash": "12104244470562257501"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20200824.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20200824.cpk",
+        "algorithm": "xxhash",
+        "size": 358528,
+        "hash": "949732873864374578"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20200825.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20200825.cpk",
+        "algorithm": "xxhash",
+        "size": 358528,
+        "hash": "2001665939900331768"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20200826.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20200826.cpk",
+        "algorithm": "xxhash",
+        "size": 362624,
+        "hash": "14137723853236419654"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20200827.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20200827.cpk",
+        "algorithm": "xxhash",
+        "size": 315520,
+        "hash": "11462158049005044215"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20210819.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20210819.cpk",
+        "algorithm": "xxhash",
+        "size": 319616,
+        "hash": "8641960528159333658"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20210820.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20210820.cpk",
+        "algorithm": "xxhash",
+        "size": 301184,
+        "hash": "2433576038802281607"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20210821.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20210821.cpk",
+        "algorithm": "xxhash",
+        "size": 313472,
+        "hash": "2392381972493525533"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20210822.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20210822.cpk",
+        "algorithm": "xxhash",
+        "size": 362624,
+        "hash": "15612037587301862856"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20210823.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20210823.cpk",
+        "algorithm": "xxhash",
+        "size": 319616,
+        "hash": "14420913541675808317"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20210824.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20210824.cpk",
+        "algorithm": "xxhash",
+        "size": 303232,
+        "hash": "9005446907054564748"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20210825.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20210825.cpk",
+        "algorithm": "xxhash",
+        "size": 278656,
+        "hash": "9628437496391683507"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20220819.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20220819.cpk",
+        "algorithm": "xxhash",
+        "size": 436352,
+        "hash": "299282790238854679"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20220820.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20220820.cpk",
+        "algorithm": "xxhash",
+        "size": 434304,
+        "hash": "5825868390519716895"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20220821.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20220821.cpk",
+        "algorithm": "xxhash",
+        "size": 360576,
+        "hash": "8921089927729985376"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20220822.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20220822.cpk",
+        "algorithm": "xxhash",
+        "size": 428160,
+        "hash": "3731914550467987048"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20220823.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20220823.cpk",
+        "algorithm": "xxhash",
+        "size": 430208,
+        "hash": "7494900304377794375"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20220824.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20220824.cpk",
+        "algorithm": "xxhash",
+        "size": 491648,
+        "hash": "8594835228539503519"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_countdown_tips_image_20220825.cpk",
+        "file_path": "outgame/extension/tips/dl_countdown_tips_image_20220825.cpk",
+        "algorithm": "xxhash",
+        "size": 352384,
+        "hash": "4043495934886294705"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_ending_tips_image_20210923_A.cpk",
+        "file_path": "outgame/extension/tips/dl_ending_tips_image_20210923_A.cpk",
+        "algorithm": "xxhash",
+        "size": 510080,
+        "hash": "11662908133983104492"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_ending_tips_image_20210923_B.cpk",
+        "file_path": "outgame/extension/tips/dl_ending_tips_image_20210923_B.cpk",
+        "algorithm": "xxhash",
+        "size": 440448,
+        "hash": "9622728053714950514"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_ending_tips_image_20210923_C.cpk",
+        "file_path": "outgame/extension/tips/dl_ending_tips_image_20210923_C.cpk",
+        "algorithm": "xxhash",
+        "size": 456832,
+        "hash": "13028882955487648107"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_ending_tips_image_20210923_D.cpk",
+        "file_path": "outgame/extension/tips/dl_ending_tips_image_20210923_D.cpk",
+        "algorithm": "xxhash",
+        "size": 442496,
+        "hash": "10886952157111086653"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_ending_tips_image_20210923_E.cpk",
+        "file_path": "outgame/extension/tips/dl_ending_tips_image_20210923_E.cpk",
+        "algorithm": "xxhash",
+        "size": 376960,
+        "hash": "14375839806762947483"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_ending_tips_image_20210923_F.cpk",
+        "file_path": "outgame/extension/tips/dl_ending_tips_image_20210923_F.cpk",
+        "algorithm": "xxhash",
+        "size": 450688,
+        "hash": "16931036277400908922"
+    },
+    {
+        "url": "./outgame/extension/tips/dl_ending_tips_image_20210923_G.cpk",
+        "file_path": "outgame/extension/tips/dl_ending_tips_image_20210923_G.cpk",
+        "algorithm": "xxhash",
+        "size": 272512,
+        "hash": "13906349917917940874"
+    },
+    {
+        "url": "./outgame/extension/tips/dragonball_gt_image_20190215.cpk",
+        "file_path": "outgame/extension/tips/dragonball_gt_image_20190215.cpk",
+        "algorithm": "xxhash",
+        "size": 151680,
+        "hash": "5950004510808718400"
+    },
+    {
+        "url": "./outgame/extension/tips/dragonball_gt_image_20190216.cpk",
+        "file_path": "outgame/extension/tips/dragonball_gt_image_20190216.cpk",
+        "algorithm": "xxhash",
+        "size": 168064,
+        "hash": "17095654627811088253"
+    },
+    {
+        "url": "./outgame/extension/tips/dragonball_gt_image_20190217.cpk",
+        "file_path": "outgame/extension/tips/dragonball_gt_image_20190217.cpk",
+        "algorithm": "xxhash",
+        "size": 176256,
+        "hash": "14156362490522975131"
+    },
+    {
+        "url": "./outgame/extension/tips/dragonball_gt_image_20190218.cpk",
+        "file_path": "outgame/extension/tips/dragonball_gt_image_20190218.cpk",
+        "algorithm": "xxhash",
+        "size": 186496,
+        "hash": "11795434229252589513"
+    },
+    {
+        "url": "./outgame/extension/tips/dragonball_gt_image_20190219.cpk",
+        "file_path": "outgame/extension/tips/dragonball_gt_image_20190219.cpk",
+        "algorithm": "xxhash",
+        "size": 188544,
+        "hash": "17964141737493551906"
+    },
+    {
+        "url": "./outgame/extension/tips/dragonball_gt_image_20190220.cpk",
+        "file_path": "outgame/extension/tips/dragonball_gt_image_20190220.cpk",
+        "algorithm": "xxhash",
+        "size": 196736,
+        "hash": "3087727982373847499"
+    },
+    {
+        "url": "./outgame/extension/tips/dragonball_gt_image_20190221.cpk",
+        "file_path": "outgame/extension/tips/dragonball_gt_image_20190221.cpk",
+        "algorithm": "xxhash",
+        "size": 198784,
+        "hash": "4450344134426695933"
+    },
+    {
+        "url": "./outgame/extension/tips/first_zbattle_20190222.cpk",
+        "file_path": "outgame/extension/tips/first_zbattle_20190222.cpk",
+        "algorithm": "xxhash",
+        "size": 499840,
+        "hash": "13156351333963096372"
+    },
+    {
+        "url": "./outgame/extension/tips/first_zbattle_20190223.cpk",
+        "file_path": "outgame/extension/tips/first_zbattle_20190223.cpk",
+        "algorithm": "xxhash",
+        "size": 497792,
+        "hash": "9586180807495719196"
+    },
+    {
+        "url": "./outgame/extension/tips/first_zbattle_20190224.cpk",
+        "file_path": "outgame/extension/tips/first_zbattle_20190224.cpk",
+        "algorithm": "xxhash",
+        "size": 491648,
+        "hash": "17032457793232768781"
+    },
+    {
+        "url": "./outgame/extension/tips/first_zbattle_20190225.cpk",
+        "file_path": "outgame/extension/tips/first_zbattle_20190225.cpk",
+        "algorithm": "xxhash",
+        "size": 497792,
+        "hash": "3184971581338173951"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_01.cpk",
+        "file_path": "outgame/extension/tips/tips_image_01.cpk",
+        "algorithm": "xxhash",
+        "size": 360576,
+        "hash": "7821611536859725060"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_02.cpk",
+        "file_path": "outgame/extension/tips/tips_image_02.cpk",
+        "algorithm": "xxhash",
+        "size": 350336,
+        "hash": "11592257816493091665"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_03.cpk",
+        "file_path": "outgame/extension/tips/tips_image_03.cpk",
+        "algorithm": "xxhash",
+        "size": 245888,
+        "hash": "9310773479741459401"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_04.cpk",
+        "file_path": "outgame/extension/tips/tips_image_04.cpk",
+        "algorithm": "xxhash",
+        "size": 338048,
+        "hash": "7573616999819590428"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_05.cpk",
+        "file_path": "outgame/extension/tips/tips_image_05.cpk",
+        "algorithm": "xxhash",
+        "size": 323712,
+        "hash": "7892097834526076211"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_06.cpk",
+        "file_path": "outgame/extension/tips/tips_image_06.cpk",
+        "algorithm": "xxhash",
+        "size": 221312,
+        "hash": "10719626685223207048"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_07.cpk",
+        "file_path": "outgame/extension/tips/tips_image_07.cpk",
+        "algorithm": "xxhash",
+        "size": 190592,
+        "hash": "16148358340236709282"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_08.cpk",
+        "file_path": "outgame/extension/tips/tips_image_08.cpk",
+        "algorithm": "xxhash",
+        "size": 237696,
+        "hash": "11471334475639993679"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_09.cpk",
+        "file_path": "outgame/extension/tips/tips_image_09.cpk",
+        "algorithm": "xxhash",
+        "size": 239744,
+        "hash": "5970361688614813254"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_10.cpk",
+        "file_path": "outgame/extension/tips/tips_image_10.cpk",
+        "algorithm": "xxhash",
+        "size": 219264,
+        "hash": "14289738505930320846"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_11.cpk",
+        "file_path": "outgame/extension/tips/tips_image_11.cpk",
+        "algorithm": "xxhash",
+        "size": 192640,
+        "hash": "2821780718439052537"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_12.cpk",
+        "file_path": "outgame/extension/tips/tips_image_12.cpk",
+        "algorithm": "xxhash",
+        "size": 268416,
+        "hash": "6987391492437986004"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_13.cpk",
+        "file_path": "outgame/extension/tips/tips_image_13.cpk",
+        "algorithm": "xxhash",
+        "size": 237696,
+        "hash": "7064739596763604185"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_14.cpk",
+        "file_path": "outgame/extension/tips/tips_image_14.cpk",
+        "algorithm": "xxhash",
+        "size": 188544,
+        "hash": "8814225302569699785"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_15.cpk",
+        "file_path": "outgame/extension/tips/tips_image_15.cpk",
+        "algorithm": "xxhash",
+        "size": 219264,
+        "hash": "9796738572049569199"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_16.cpk",
+        "file_path": "outgame/extension/tips/tips_image_16.cpk",
+        "algorithm": "xxhash",
+        "size": 299136,
+        "hash": "6969351324064274836"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_17.cpk",
+        "file_path": "outgame/extension/tips/tips_image_17.cpk",
+        "algorithm": "xxhash",
+        "size": 217216,
+        "hash": "397558957197950699"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_18.cpk",
+        "file_path": "outgame/extension/tips/tips_image_18.cpk",
+        "algorithm": "xxhash",
+        "size": 194688,
+        "hash": "14911754513178930098"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_19.cpk",
+        "file_path": "outgame/extension/tips/tips_image_19.cpk",
+        "algorithm": "xxhash",
+        "size": 174208,
+        "hash": "4091963099153805703"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_20.cpk",
+        "file_path": "outgame/extension/tips/tips_image_20.cpk",
+        "algorithm": "xxhash",
+        "size": 217216,
+        "hash": "11709923257805934239"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_21.cpk",
+        "file_path": "outgame/extension/tips/tips_image_21.cpk",
+        "algorithm": "xxhash",
+        "size": 202880,
+        "hash": "17703409198162974338"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_22.cpk",
+        "file_path": "outgame/extension/tips/tips_image_22.cpk",
+        "algorithm": "xxhash",
+        "size": 143488,
+        "hash": "2180036861524821110"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_23.cpk",
+        "file_path": "outgame/extension/tips/tips_image_23.cpk",
+        "algorithm": "xxhash",
+        "size": 184448,
+        "hash": "11323559716281996746"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_24.cpk",
+        "file_path": "outgame/extension/tips/tips_image_24.cpk",
+        "algorithm": "xxhash",
+        "size": 190592,
+        "hash": "6313059378081329926"
+    },
+    {
+        "url": "./outgame/extension/tips/tips_image_25.cpk",
+        "file_path": "outgame/extension/tips/tips_image_25.cpk",
+        "algorithm": "xxhash",
+        "size": 192640,
+        "hash": "6321569226988922054"
+    },
+    {
+        "url": "./outgame/extension/tournament.cpk",
+        "file_path": "outgame/extension/tournament.cpk",
+        "algorithm": "xxhash",
+        "size": 342184,
+        "hash": "16691898668380425475"
+    },
+    {
+        "url": "./outgame/extension/trade.cpk",
+        "file_path": "outgame/extension/trade.cpk",
+        "algorithm": "xxhash",
+        "size": 20608,
+        "hash": "13781003811989806691"
+    },
+    {
+        "url": "./outgame/extension/world_map/world_map_001.cpk",
+        "file_path": "outgame/extension/world_map/world_map_001.cpk",
+        "algorithm": "xxhash",
+        "size": 1061088,
+        "hash": "11603505198602438689"
+    },
+    {
+        "url": "./outgame/extension/world_map/world_map_101.cpk",
+        "file_path": "outgame/extension/world_map/world_map_101.cpk",
+        "algorithm": "xxhash",
+        "size": 860384,
+        "hash": "12443665742543478946"
+    },
+    {
+        "url": "./outgame/extension/world_map/world_map_201.cpk",
+        "file_path": "outgame/extension/world_map/world_map_201.cpk",
+        "algorithm": "xxhash",
+        "size": 635104,
+        "hash": "245813457358543978"
+    },
+    {
+        "url": "./outgame/special_sticker/general_texture.cpk",
+        "file_path": "outgame/special_sticker/general_texture.cpk",
+        "algorithm": "xxhash",
+        "size": 323848,
+        "hash": "14953630632483464873"
+    }
+]

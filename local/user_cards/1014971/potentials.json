@@ -1,0 +1,1353 @@
+{
+    "user_card_potential_squares": [
+        {
+            "potential_square_id": 2100002,
+            "status": 0,
+            "event_selection_id": null
+        },
+        {
+            "potential_square_id": 2100003,
+            "status": 0,
+            "event_selection_id": null
+        },
+        {
+            "potential_square_id": 2100004,
+            "status": 0,
+            "event_selection_id": null
+        },
+        {
+            "potential_square_id": 2100044,
+            "status": 0,
+            "event_selection_id": null
+        },
+        {
+            "potential_square_id": 2100005,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100011,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100014,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100007,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100010,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100006,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100012,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100009,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100008,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100046,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100045,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100013,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100018,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100022,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100021,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100016,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100024,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100017,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100020,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100023,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100019,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100025,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100042,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100028,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100027,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100026,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100035,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100031,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100034,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100335,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100030,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100032,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100043,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100033,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100040,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100036,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100041,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100029,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100039,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100038,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100037,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100056,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100069,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100061,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100052,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100062,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100072,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100053,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100066,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100076,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100077,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100074,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100067,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100058,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100057,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100051,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100055,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100071,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100065,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100060,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100068,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100047,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100059,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100063,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100073,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100054,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100070,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100064,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100075,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100015,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100085,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100088,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100078,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100084,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100079,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100083,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100094,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100095,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100104,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100093,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100082,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100092,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100091,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100081,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100102,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100090,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100112,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100101,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100114,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100099,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100113,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100120,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100122,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100080,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100123,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100111,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100089,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100086,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100100,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100096,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100103,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100107,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100108,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100106,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100116,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100115,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100118,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100105,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100119,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100117,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100124,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100087,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100110,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100098,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100109,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100097,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100121,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100136,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100142,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100150,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100141,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100145,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100152,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100139,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100147,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100155,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100157,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100140,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100149,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100137,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100144,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100143,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100138,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100151,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100146,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100153,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100148,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100156,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100159,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100154,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100128,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100125,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100127,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100131,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100129,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100130,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100135,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100126,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100132,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100134,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100133,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100181,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100179,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100190,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100189,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100168,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100160,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100166,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100167,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100191,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100180,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100171,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100192,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100182,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100195,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100185,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100198,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100174,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100186,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100200,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100187,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100176,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100201,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100188,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100177,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100202,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100178,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100203,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100164,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100207,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100209,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100205,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100165,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100194,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100208,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100199,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100163,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100172,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100175,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100162,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100204,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100193,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100170,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100183,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100169,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100161,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100184,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100197,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100196,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100173,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100206,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100227,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100220,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100211,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100226,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100214,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100222,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100231,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100236,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100212,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100241,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100219,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100225,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100210,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100218,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100228,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100230,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100213,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100221,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100229,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100235,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100239,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100234,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100233,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100216,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100215,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100217,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100223,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100224,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100237,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100232,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100238,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100242,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100252,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100271,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100245,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100253,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100270,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100246,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100283,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100269,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100243,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100251,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100272,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100259,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100276,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100249,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100258,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100250,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100265,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100264,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100244,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100247,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100275,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100274,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100260,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100267,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100277,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100266,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100278,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100281,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100331,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100333,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100330,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100332,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100334,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100280,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100282,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100284,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100296,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100285,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100322,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100293,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100312,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100287,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100294,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100307,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100317,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100289,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100298,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100316,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100315,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100325,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100295,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100314,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100306,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100302,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100292,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100305,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100304,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100311,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100310,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100321,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100303,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100291,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100288,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100323,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100286,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100313,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100301,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100309,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100320,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100300,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100290,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100299,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100319,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100308,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100318,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100297,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100324,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100254,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100255,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100273,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100257,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100256,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100248,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100263,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100262,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100268,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100279,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100261,
+            "status": 0
+        },
+        {
+            "potential_square_id": 2100050,
+            "status": 0,
+            "event_selection_id": 6
+        },
+        {
+            "potential_square_id": 2100049,
+            "status": 0,
+            "event_selection_id": 3
+        },
+        {
+            "potential_square_id": 2100048,
+            "status": 0,
+            "event_selection_id": 1
+        },
+        {
+            "potential_square_id": 2100240,
+            "status": 0,
+            "event_selection_id": 9
+        },
+        {
+            "potential_square_id": 2100328,
+            "status": 0,
+            "event_selection_id": 5
+        },
+        {
+            "potential_square_id": 2100329,
+            "status": 0,
+            "event_selection_id": 12
+        },
+        {
+            "potential_square_id": 2100327,
+            "status": 0,
+            "event_selection_id": 3
+        },
+        {
+            "potential_square_id": 2100326,
+            "status": 0,
+            "event_selection_id": 2
+        },
+        {
+            "potential_square_id": 2100158,
+            "status": 0,
+            "event_selection_id": 7
+        }
+    ]
+}

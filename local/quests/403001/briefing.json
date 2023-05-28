@@ -1,0 +1,47 @@
+{
+    "supporters": [],
+    "cpu_supporters": [
+        {
+            "id": 182,
+            "name": "Special Friend",
+            "leader": {
+                "id": 0,
+                "card_id": 1000811,
+                "exp": 369434,
+                "skill_lv": 3,
+                "awakening_route_id": null,
+                "is_favorite": false,
+                "is_released_potential": false,
+                "released_rate": 0.0,
+                "optimal_awakening_step": null,
+                "awakenings": [],
+                "unlocked_square_statuses": [],
+                "created_at": 1669538939,
+                "card_decoration_id": null,
+                "exchangeable_item_id": null,
+                "potential_parameters": [],
+                "equipment_skill_items": [],
+                "link_skill_lvs": []
+            },
+            "achievement_id": null,
+            "rank": 100,
+            "is_friend": false,
+            "is_dummy": false,
+            "login_at": 1669538939,
+            "gasha_point": 0,
+            "is_cpu_supporter": true,
+            "is_cooperation_inviter": false
+        }
+    ],
+    "teaming_power_weight": {
+        "attack": 1.2,
+        "defense": 1.5,
+        "hp": 1,
+        "link_skill": 500,
+        "energy": 10000,
+        "skill_lv": 100
+    },
+    "ranking_enabled": true,
+    "last_deck_cards": [],
+    "is_cpu_only": false
+}

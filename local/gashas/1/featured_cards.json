@@ -1,0 +1,26 @@
+{
+    "gasha_items": [
+        {
+            "card_id": 1642011,
+            "is_new": true,
+            "is_dokkan_fes": false,
+            "is_carnival_only": false,
+            "is_play_skill": true
+        },
+        {
+            "card_id": 1025540,
+            "is_new": true,
+            "is_dokkan_fes": false,
+            "is_carnival_only": false,
+            "is_play_skill": true
+        },
+        {
+            "card_id": 1025590,
+            "is_new": true,
+            "is_dokkan_fes": false,
+            "is_carnival_only": false,
+            "is_play_skill": true
+        }
+    ],
+    "scouter_description": "The scouter reads unidentified power levels!\nCheck the featured characters!"
+}

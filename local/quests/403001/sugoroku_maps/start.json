@@ -1,0 +1,276 @@
+{
+    "token": "fHdRCKzPJ7fIeTZXI01y9g==",
+    "dummy_card_id": 1000780,
+    "sugoroku": {
+        "map": "403_001",
+        "events": {
+            "0": {
+                "type": 501,
+                "content": {
+                    "script_id": 69420
+                }
+            },
+            "2": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "3": {
+                "type": 104,
+                "content": {
+                    "zeni": 720
+                }
+            },
+            "4": {
+                "type": 104,
+                "content": {
+                    "zeni": 720
+                }
+            },
+            "5": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "6": {
+                "type": 503,
+                "content": {
+                    "desc": "hi silly dokkan user",
+                    "image": "obstacle_010.png"
+                }
+            },
+            "7": {
+                "type": 102,
+                "content": {
+                    "rarity": 0
+                }
+            },
+            "8": {
+                "type": 107,
+                "content": {
+                    "gauge": 3
+                }
+            },
+            "9": {
+                "type": 104,
+                "content": {
+                    "zeni": 720
+                }
+            },
+            "10": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "11": {
+                "type": 101,
+                "content": {
+                    "rarity": 1
+                }
+            },
+            "12": {
+                "type": 101,
+                "content": {
+                    "rarity": 1
+                }
+            },
+            "14": {
+                "type": 103,
+                "content": {
+                    "rarity": 0
+                }
+            },
+            "15": {
+                "type": 103,
+                "content": {
+                    "rarity": 1
+                }
+            },
+            "17": {
+                "type": 301,
+                "content": {
+                    "before_script_id": 0,
+                    "after_script_id": 0,
+                    "battle_info": [
+                        {
+                            "round_id": 403001232,
+                            "before_script_id": null,
+                            "after_script_id": null,
+                            "background_id": null,
+                            "bgm_id": 9,
+                            "charge_limit": 0,
+                            "charge_limit_script_id": null
+                        }
+                    ],
+                    "enemies": [
+                        [
+                            {
+                                "card_id": 1642011,
+                                "hp": 20000,
+                                "attack": 4100,
+                                "defence": 630,
+                                "ai_type": 3,
+                                "turn": 0,
+                                "exp": 1500,
+                                "zeni": 5000,
+                                "extra_hp_gauges_count": 0,
+                                "multi_atk_num": 1,
+                                "is_finish_special_only": false,
+                                "finish_special_inform_hp": 0,
+                                "is_necessary_to_defeat": true,
+                                "enemy_skill_ids": [],
+                                "first_turn": 0,
+                                "additional_drops": []
+                            }
+                        ]
+                    ],
+                    "battle_round_condition_sets": [],
+                    "link_skill_lv_up": []
+                }
+            },
+            "18": {
+                "type": 502,
+                "content": {
+                    "script_id": 2403032
+                }
+            },
+            "19": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "20": {
+                "type": 104,
+                "content": {
+                    "zeni": 720
+                }
+            },
+            "23": {
+                "type": 203,
+                "content": {
+                    "damage": 8
+                }
+            },
+            "24": {
+                "type": 503,
+                "content": {
+                    "desc": "hi silly dokkan user",
+                    "image": "obstacle_010.png"
+                }
+            },
+            "26": {
+                "type": 107,
+                "content": {
+                    "gauge": 1
+                }
+            },
+            "27": {
+                "type": 101,
+                "content": {
+                    "rarity": 0
+                }
+            },
+            "30": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "31": {
+                "type": 104,
+                "content": {
+                    "zeni": 720
+                }
+            },
+            "32": {
+                "type": 101,
+                "content": {
+                    "rarity": 0
+                }
+            },
+            "33": {
+                "type": 102,
+                "content": {
+                    "rarity": 0
+                }
+            },
+            "34": {
+                "type": 203,
+                "content": {
+                    "damage": 8
+                }
+            },
+            "35": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "36": {
+                "type": 102,
+                "content": {
+                    "rarity": 0
+                }
+            },
+            "38": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "39": {
+                "type": 104,
+                "content": {
+                    "zeni": 1070
+                }
+            },
+            "40": {
+                "type": 101,
+                "content": {
+                    "rarity": 0
+                }
+            },
+            "42": {
+                "type": 107,
+                "content": {
+                    "gauge": 1
+                }
+            }
+        },
+        "first_focus_step": 18,
+        "dice": {
+            "nums": [
+                {
+                    "num": 1,
+                    "weight": 22
+                },
+                {
+                    "num": 2,
+                    "weight": 22
+                },
+                {
+                    "num": 3,
+                    "weight": 22
+                },
+                {
+                    "num": 4,
+                    "weight": 18
+                },
+                {
+                    "num": 5,
+                    "weight": 10
+                },
+                {
+                    "num": 6,
+                    "weight": 8
+                }
+            ]
+        }
+    },
+    "user": null,
+    "missions": []
+}
