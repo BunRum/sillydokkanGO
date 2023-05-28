@@ -15,7 +15,6 @@ import (
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/pem"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"math/big"
@@ -101,31 +100,31 @@ func (m *Mkcert) Run() {
 	}
 	fatalIfErr(os.MkdirAll(m.CAROOT, 0755), "failed to create the CAROOT")
 	m.loadCA()
-	m.install()
+	//m.install()
 	fake := []string{"localhost", GetLocalIP(), "::1", "127.0.0.1"}
 	m.makeCert(fake)
 }
 
-func (m *Mkcert) install() {
-	if storeEnabled("system") {
-		if m.checkPlatform() {
-			//log.Print("The local CA is already installed in the system trust store! 👍")
-		} else {
-			if m.installPlatform() {
-				log.Print("The local CA is now installed in the system trust store! ⚡️")
-			}
-			m.ignoreCheckFailure = true // TODO: replace with a check for a successful install
-		}
-	}
-	log.Print("")
-}
-
-func (m *Mkcert) uninstall() {
-	if storeEnabled("system") && m.uninstallPlatform() {
-		log.Print("The local CA is now uninstalled from the system trust store(s)! 👋")
-		log.Print("")
-	}
-}
+//func (m *Mkcert) install() {
+//	if storeEnabled("system") {
+//		if m.checkPlatform() {
+//			//log.Print("The local CA is already installed in the system trust store! 👍")
+//		} else {
+//			if m.installPlatform() {
+//				log.Print("The local CA is now installed in the system trust store! ⚡️")
+//			}
+//			m.ignoreCheckFailure = true // TODO: replace with a check for a successful install
+//		}
+//	}
+//	log.Print("")
+//}
+//
+//func (m *Mkcert) uninstall() {
+//	if storeEnabled("system") && m.uninstallPlatform() {
+//		log.Print("The local CA is now uninstalled from the system trust store(s)! 👋")
+//		log.Print("")
+//	}
+//}
 
 func (m *Mkcert) checkPlatform() bool {
 	if m.ignoreCheckFailure {
@@ -136,39 +135,39 @@ func (m *Mkcert) checkPlatform() bool {
 	return err == nil
 }
 
-func (m *Mkcert) installPlatform() bool {
-	// Load cert
-	cert, err := ioutil.ReadFile(filepath.Join(m.CAROOT, rootName))
-	fatalIfErr(err, "failed to read root certificate")
-	// Decode PEM
-	if certBlock, _ := pem.Decode(cert); certBlock == nil || certBlock.Type != "CERTIFICATE" {
-		fatalIfErr(fmt.Errorf("invalid PEM data"), "decode pem")
-	} else {
-		cert = certBlock.Bytes
-	}
-	// Open root store
-	store, err := openWindowsRootStore()
-	fatalIfErr(err, "open root store")
-	defer store.close()
-	// Add cert
-	fatalIfErr(store.addCert(cert), "add cert")
-	return true
-}
-
-func (m *Mkcert) uninstallPlatform() bool {
-	// We'll just remove all certs with the same serial number
-	// Open root store
-	store, err := openWindowsRootStore()
-	fatalIfErr(err, "open root store")
-	defer store.close()
-	// Do the deletion
-	deletedAny, err := store.deleteCertsWithSerial(m.caCert.SerialNumber)
-	if err == nil && !deletedAny {
-		err = fmt.Errorf("no certs found")
-	}
-	fatalIfErr(err, "delete cert")
-	return true
-}
+//func (m *Mkcert) installPlatform() bool {
+//	// Load cert
+//	cert, err := ioutil.ReadFile(filepath.Join(m.CAROOT, rootName))
+//	fatalIfErr(err, "failed to read root certificate")
+//	// Decode PEM
+//	if certBlock, _ := pem.Decode(cert); certBlock == nil || certBlock.Type != "CERTIFICATE" {
+//		fatalIfErr(fmt.Errorf("invalid PEM data"), "decode pem")
+//	} else {
+//		cert = certBlock.Bytes
+//	}
+//	// Open root store
+//	store, err := openWindowsRootStore()
+//	fatalIfErr(err, "open root store")
+//	defer store.close()
+//	// Add cert
+//	fatalIfErr(store.addCert(cert), "add cert")
+//	return true
+//}
+//
+//func (m *Mkcert) uninstallPlatform() bool {
+//	// We'll just remove all certs with the same serial number
+//	// Open root store
+//	store, err := openWindowsRootStore()
+//	fatalIfErr(err, "open root store")
+//	defer store.close()
+//	// Do the deletion
+//	deletedAny, err := store.deleteCertsWithSerial(m.caCert.SerialNumber)
+//	if err == nil && !deletedAny {
+//		err = fmt.Errorf("no certs found")
+//	}
+//	fatalIfErr(err, "delete cert")
+//	return true
+//}
 
 func (m *Mkcert) makeCert(hosts []string) {
 	if m.caKey == nil {
