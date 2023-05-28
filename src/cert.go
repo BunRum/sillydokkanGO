@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	pkcs12 "software.sslmate.com/src/go-pkcs12"
+	"software.sslmate.com/src/go-pkcs12"
 )
 
 var userAndHostname string
@@ -272,7 +272,7 @@ func (m *Mkcert) makeCert(hosts []string) {
 }
 
 func (m *Mkcert) printHosts(hosts []string) {
-	secondLvlWildcardRegexp := regexp.MustCompile(`(?i)^\*\.[0-9a-z_-]+$`)
+	secondLvlWildcardRegexp := regexp.MustCompile(`(?i)^\*\.[\da-z_-]+$`)
 	log.Printf("\nCreated a new certificate valid for the following names 📜")
 	for _, h := range hosts {
 		log.Printf(" - %q", h)
