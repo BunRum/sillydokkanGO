@@ -15,6 +15,7 @@ import (
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/pem"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"math/big"
@@ -133,6 +134,40 @@ func (m *Mkcert) checkPlatform() bool {
 
 	_, err := m.caCert.Verify(x509.VerifyOptions{})
 	return err == nil
+}
+
+func (m *Mkcert) installPlatform() bool {
+	// Load cert
+	cert, err := ioutil.ReadFile(filepath.Join(m.CAROOT, rootName))
+	fatalIfErr(err, "failed to read root certificate")
+	// Decode PEM
+	if certBlock, _ := pem.Decode(cert); certBlock == nil || certBlock.Type != "CERTIFICATE" {
+		fatalIfErr(fmt.Errorf("invalid PEM data"), "decode pem")
+	} else {
+		cert = certBlock.Bytes
+	}
+	// Open root store
+	store, err := openWindowsRootStore()
+	fatalIfErr(err, "open root store")
+	defer store.close()
+	// Add cert
+	fatalIfErr(store.addCert(cert), "add cert")
+	return true
+}
+
+func (m *Mkcert) uninstallPlatform() bool {
+	// We'll just remove all certs with the same serial number
+	// Open root store
+	store, err := openWindowsRootStore()
+	fatalIfErr(err, "open root store")
+	defer store.close()
+	// Do the deletion
+	deletedAny, err := store.deleteCertsWithSerial(m.caCert.SerialNumber)
+	if err == nil && !deletedAny {
+		err = fmt.Errorf("no certs found")
+	}
+	fatalIfErr(err, "delete cert")
+	return true
 }
 
 func (m *Mkcert) makeCert(hosts []string) {
