@@ -433,7 +433,7 @@ func StartFiberServer() {
 		return ctx.SendStatus(200)
 	})
 
-	//fmt.Println(fmt.Sprintf("Server started at https://%s:8081!", ipv4addr))
+	fmt.Println(fmt.Sprintf("Server started at https://%s:8081!", ipv4addr))
 	//return FiberApp
 	log.Fatal(FiberApp.ListenTLS(":8081", "./server.crt", "./server.key"))
 }

@@ -2,6 +2,7 @@ package main
 
 import (
 	misc "SillyDokkan/src"
+	_ "golang.org/x/mobile/app"
 	"log"
 	"os"
 )
