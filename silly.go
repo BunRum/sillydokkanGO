@@ -1,7 +1,6 @@
 package main
 
 import (
-	misc "SillyDokkan/src"
 	"encoding/binary"
 	"fmt"
 	"golang.org/x/mobile/app"
@@ -115,11 +114,11 @@ func main() {
 	//FyneAppWindow.Resize(fyne.NewSize(600, 400))
 	//FyneAppWindow.SetFixedSize(true)
 
-	if !misc.PathExists("./assets") {
-		if err := os.Mkdir("assets", os.ModePerm); err != nil {
-			log.Fatal(err)
-		}
-	}
+	//if !misc.PathExists("./assets") {
+	//	if err := os.Mkdir("assets", os.ModePerm); err != nil {
+	//		log.Fatal(err)
+	//	}
+	//}
 
 	obj1 := obj{
 		position:   gl.Attrib{},
@@ -147,8 +146,8 @@ func main() {
 	app.Main(func(a app.App) {
 		var glctx gl.Context
 		var sz size.Event
-		go misc.StartFileServer()
-		go misc.StartFiberServer()
+		//go misc.StartFileServer()
+		//go misc.StartFiberServer()
 		for e := range a.Events() {
 			//fmt.Println(obj2.touchY, obj2.touchY)
 			switch e := a.Filter(e).(type) {
@@ -162,6 +161,7 @@ func main() {
 				case lifecycle.CrossOff:
 					onStop(glctx)
 					glctx = nil
+					os.Exit(1)
 				}
 			case size.Event:
 				sz = e
