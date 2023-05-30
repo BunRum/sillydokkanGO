@@ -3,7 +3,6 @@ package misc
 import (
 	"bufio"
 	"fmt"
-	"fyne.io/fyne/v2"
 	"github.com/cespare/xxhash"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
@@ -18,10 +17,7 @@ import (
 	"time"
 )
 
-type ping struct {
-	PingInfo PingInfo `json:"ping_info"`
-}
-type PingInfo struct {
+type pingInfo struct {
 	Host        string `json:"host"`
 	Port        int    `json:"port"`
 	PortStr     int    `json:"port_str"`
@@ -46,15 +42,8 @@ func StartFiberServer() {
 	FiberApp.Use(logger.New(logger.Config{
 		Format: "[${ip}]:${port} ${status} - ${method} ${path}\n",
 	}))
-
 	FiberApp.Get("/ping", func(ctx *fiber.Ctx) error {
-		stuff := ping{PingInfo: PingInfo{Host: ipv4addr, Port: 8081, PortStr: 8081, CfURIPrefix: ""}}
-
-		return ctx.JSON(stuff)
-	})
-	FiberApp.Get("/test", func(ctx *fiber.Ctx) error {
-		fyne.CurrentApp().SendNotification(fyne.NewNotification("edgy", "edgy"))
-		return ctx.SendString("hi")
+		return ctx.JSON(Dict{"ping_info": pingInfo{Host: ipv4addr, Port: 8081, PortStr: 8081, CfURIPrefix: ""}})
 	})
 	FiberApp.Get("/files", func(ctx *fiber.Ctx) error {
 		var clientAssetVersion int64
@@ -65,8 +54,11 @@ func StartFiberServer() {
 			clientAssetVersion = 0
 		}
 
-		timeAssets := getAssets(time.Unix(clientAssetVersion, 0))
+		fmt.Println(os.ReadDir("/sdcard/Download/assets"))
 
+		fmt.Println("here")
+		timeAssets := getAssets(time.Unix(clientAssetVersion, 0))
+		fmt.Println("here2")
 		return ctx.JSON(timeAssets)
 	})
 	FiberApp.Get("/client_assets", func(ctx *fiber.Ctx) error {
@@ -432,8 +424,17 @@ func StartFiberServer() {
 	FiberApp.Get("/", func(ctx *fiber.Ctx) error {
 		return ctx.SendStatus(200)
 	})
+	if IsMobile == true {
+		files, err := os.ReadDir(AppDirectory)
+		if err != nil {
+			log.Fatal(err)
+		}
+		for _, file := range files {
+			fmt.Println(file.Name())
+		}
+	}
 
 	fmt.Println(fmt.Sprintf("Server started at https://%s:8081!", ipv4addr))
 	//return FiberApp
-	log.Fatal(FiberApp.ListenTLS(":8081", "./server.crt", "./server.key"))
+	log.Fatal(FiberApp.ListenTLS(":8081", filepath.Join(AppDirectory, "./server.crt"), filepath.Join(AppDirectory, "./server.key")))
 }

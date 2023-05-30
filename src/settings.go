@@ -9,25 +9,25 @@ import (
 
 func GetSettings() Dict {
 	var Settings Dict
-	dir := filepath.Join(os.Getenv("LocalAppData"), "sillydokkan")
-	if !PathExists(dir) {
+	if !PathExists(AppDirectory) && !IsMobile {
 		//fmt.Println("settings directory not found, creating it now..")
-		if err := os.Mkdir(dir, os.ModePerm); err != nil {
+		if err := os.Mkdir(AppDirectory, os.ModePerm); err != nil {
 			log.Fatal(err)
 		}
 	}
 
-	err := parseJSONFile(filepath.Join(dir, "settings.json"), &Settings, false)
+	err := parseJSONFile(filepath.Join(AppDirectory, "settings.json"), &Settings, false)
 	if err != nil {
 		//fmt.Println("creating settings.json now....")
 		Settings = Dict{
-			"AssetPath": "./assets",
+			"AssetPath": "/sdcard/Download/assets",
+			//"AssetPath": filepath.Join(AppDirectory, "./assets"),
 		}
 		b, jsonMarshallErr := json.Marshal(Settings)
 		if jsonMarshallErr != nil {
 			return nil
 		}
-		Writeerr := os.WriteFile(filepath.Join(dir, "settings.json"), b, 0644)
+		Writeerr := os.WriteFile(filepath.Join(AppDirectory, "settings.json"), b, 0644)
 		if Writeerr != nil {
 			return nil
 		}
@@ -41,5 +41,5 @@ func ChangeSettings(key string, value any) {
 	Settings := GetSettings()
 	Settings[key] = value
 	b, _ := json.Marshal(Settings)
-	_ = os.WriteFile("settings.json", b, 0644)
+	_ = os.WriteFile(filepath.Join(AppDirectory, "settings.json"), b, 0644)
 }

@@ -11,6 +11,9 @@ import (
 	"time"
 )
 
+var AppDirectory string
+var IsMobile bool
+
 type file struct {
 	Path                  string    `json:"path"`
 	RelativePath          string    `json:"relativePath"`
@@ -46,6 +49,13 @@ func getAssets(referenceTime time.Time) []file {
 	settings := GetSettings()
 	assetPath := strings.ReplaceAll(settings["AssetPath"].(string)+"/", `\`, "/")
 	assetPath = strings.ReplaceAll(assetPath, "./", "")
+	fmt.Println(assetPath)
+	if !PathExists(assetPath) {
+		mkdirerr := os.Mkdir(assetPath, 0755)
+		if mkdirerr != nil {
+			return nil
+		}
+	}
 	err := filepath.Walk(assetPath, func(path string, info os.FileInfo, err error) error {
 		if !info.IsDir() {
 			fileStat, _ := times.Stat(path)
