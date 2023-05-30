@@ -413,11 +413,11 @@ func StartFiberServer() {
 			"card_bgs":         emptyArray,
 		})
 	})
-	//FiberApp.Get("/cert", func(ctx *fiber.Ctx) error {
-	//	ctx.Set("Content-type", "application/x-x509-ca-cert")
-	//	ctx.Set("Content-Disposition", "attachment; filename=silly-ca-cert.cer")
-	//	return ctx.SendFile(filepath.Join(getCAROOT(), rootName))
-	//})
+	FiberApp.Get("/cert", func(ctx *fiber.Ctx) error {
+		ctx.Set(fiber.HeaderContentType, "application/x-x509-ca-cert")
+		ctx.Set("Content-Disposition", "attachment; filename=silly-ca-cert.cer")
+		return ctx.SendFile(filepath.Join(AppDirectory, rootName))
+	})
 	FiberApp.Get("/", func(ctx *fiber.Ctx) error {
 		return ctx.SendStatus(200)
 	})
