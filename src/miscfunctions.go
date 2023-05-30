@@ -66,7 +66,7 @@ func getAssets(referenceTime time.Time) []file {
 				RelativePath:     strings.ReplaceAll(normalizedPath, assetPath, ""),
 				ModTime:          fileStat.ModTime(),
 				IsBeforeModTime:  fileStat.ModTime().Before(referenceTime),
-				IsEqualToModTime: fileStat.ModTime() == referenceTime,
+				IsEqualToModTime: fileStat.ModTime().Equal(referenceTime),
 			}
 
 			// Check if birth time is available
@@ -74,6 +74,10 @@ func getAssets(referenceTime time.Time) []file {
 				asset.CreationTime = fileStat.BirthTime()
 				asset.IsBeforeCreationTime = fileStat.BirthTime().Before(referenceTime)
 				asset.IsEqualToCreationTime = fileStat.BirthTime().Equal(referenceTime)
+			} else {
+				asset.CreationTime = fileStat.ModTime()
+				asset.IsBeforeCreationTime = fileStat.ModTime().Before(referenceTime)
+				asset.IsEqualToCreationTime = fileStat.ModTime().Equal(referenceTime)
 			}
 
 			if !asset.IsBeforeModTime && !asset.IsEqualToModTime || !asset.IsBeforeCreationTime && !asset.IsEqualToCreationTime {
