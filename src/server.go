@@ -53,12 +53,9 @@ func StartFiberServer() {
 		} else {
 			clientAssetVersion = 0
 		}
-
-		fmt.Println(os.ReadDir("/sdcard/Download/assets"))
-
-		fmt.Println("here")
+		//fmt.Println("here")
 		timeAssets := getAssets(time.Unix(clientAssetVersion, 0))
-		fmt.Println("here2")
+		//fmt.Println("here2")
 		return ctx.JSON(timeAssets)
 	})
 	FiberApp.Get("/client_assets", func(ctx *fiber.Ctx) error {
