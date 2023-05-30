@@ -1,2 +1,7 @@
 *.exe
 *.apk
+*.aar
+*.jar
+*.pem
+*.key
+*.crt
