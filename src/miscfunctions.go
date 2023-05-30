@@ -133,3 +133,8 @@ func parseJSONFile(path string, data interface{}, doreplaceshortcuts bool) error
 	}
 	return nil
 }
+
+func Test() string {
+	fmt.Println("wtf")
+	return "stringtest"
+}
