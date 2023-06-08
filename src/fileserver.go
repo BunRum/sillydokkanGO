@@ -24,8 +24,8 @@ func logRequests(next http.Handler) http.Handler {
 func StartFileServer() {
 	//srv := &http.Server{Addr: ":8080"}
 	Settings := GetSettings()
-	FileServer = &http.Server{Addr: ":8082", Handler: logRequests(http.FileServer(http.Dir(Settings["AssetPath"].(string))))}
-	log.Fatal(FileServer.ListenAndServeTLS(filepath.Join(AppDirectory, "./server.crt"), filepath.Join(AppDirectory, "./server.key")))
+	FileServer = &http.Server{Addr: ":8082", Handler: logRequests(http.FileServer(http.Dir(Settings.AssetPath)))}
+	go log.Fatal(FileServer.ListenAndServeTLS(filepath.Join(AppDirectory, "./server.crt"), filepath.Join(AppDirectory, "./server.key")))
 }
 func RestartFileServer() {
 	if FileServer != nil {

@@ -3,13 +3,10 @@ module SillyDokkan
 go 1.19
 
 require (
-	fyne.io/fyne/v2 v2.3.4
 	github.com/cespare/xxhash v1.1.0
 	github.com/djherbis/times v1.5.0
 	github.com/gofiber/fiber/v2 v2.41.0
 	github.com/inhies/go-bytesize v0.0.0-20220417184213-4913239db9cf
-	golang.org/x/mobile v0.0.0-20211207041440-4e6c2922fdee
-	software.sslmate.com/src/go-pkcs12 v0.2.0
 )
 
 require (
@@ -23,8 +20,8 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.44.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29 // indirect
-	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6 // indirect
-	golang.org/x/image v0.3.0 // indirect
+	golang.org/x/mobile v0.0.0-20230531173138-3c911d8e3eda // indirect
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/tools v0.1.12 // indirect
 )

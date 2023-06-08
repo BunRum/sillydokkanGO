@@ -363,7 +363,7 @@ func StartFiberServer() {
 		var wg sync.WaitGroup
 		wg.Add(len(TutorialJson))
 		Settings := GetSettings()
-		AssetPath := strings.ReplaceAll(Settings["AssetPath"].(string)+"/", `\`, "/")
+		AssetPath := strings.ReplaceAll(Settings.AssetPath+"/", `\`, "/")
 
 		for index, key := range TutorialJson {
 			go func(idx int, key fileinfoType) {
@@ -421,17 +421,16 @@ func StartFiberServer() {
 	FiberApp.Get("/", func(ctx *fiber.Ctx) error {
 		return ctx.SendStatus(200)
 	})
-	if IsMobile == true {
-		files, err := os.ReadDir(AppDirectory)
-		if err != nil {
-			log.Fatal(err)
-		}
-		for _, file := range files {
-			fmt.Println(file.Name())
-		}
+
+	files, err := os.ReadDir(AppDirectory)
+	if err != nil {
+		log.Fatal(err)
+	}
+	for _, file := range files {
+		fmt.Println(file.Name())
 	}
 
 	fmt.Println(fmt.Sprintf("Server started at https://%s:8081!", ipv4addr))
 	//return FiberApp
-	log.Fatal(FiberApp.ListenTLS(":8081", filepath.Join(AppDirectory, "./server.crt"), filepath.Join(AppDirectory, "./server.key")))
+	go log.Fatal(FiberApp.ListenTLS(":8081", filepath.Join(AppDirectory, "./server.crt"), filepath.Join(AppDirectory, "./server.key")))
 }

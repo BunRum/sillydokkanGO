@@ -20,7 +20,6 @@ import (
 	"net"
 	"net/mail"
 	"net/url"
-	"os"
 	"path/filepath"
 	"strconv"
 	"strings"
@@ -50,26 +49,25 @@ func FatalIfErr(err error, msg string) {
 const rootName = "rootCA.pem"
 const rootKeyName = "rootCA-key.pem"
 
-type Mkcert struct {
-	caCert *x509.Certificate
-	caKey  crypto.PrivateKey
-	// The system cert pool is only loaded once. After installing the root, checks
-	// will keep failing until the next execution. TODO: maybe execve?
-	// https://github.com/golang/go/issues/24540 (thanks, myself)
-	ignoreCheckFailure bool
-}
+//type Mkcert struct {
+// The system cert pool is only loaded once. After installing the root, checks
+// will keep failing until the next execution. TODO: maybe execve?
+// https://github.com/golang/go/issues/24540 (thanks, myself)
+//ignoreCheckFailure bool
+//}
 
-var CAROOT string
+var caCert *x509.Certificate
+var caKey crypto.PrivateKey
 
-func getCAROOT() string {
-	if env := os.Getenv("CAROOT"); env != "" {
-		return env
-	}
-	if !IsMobile {
-		AppDirectory = filepath.Join(os.Getenv("LocalAppData"), "sillydokkan")
-	}
-	return AppDirectory
-}
+//func getCAROOT() string {
+//	if env := os.Getenv("CAROOT"); env != "" {
+//		return env
+//	}
+//	if !IsMobile {
+//		AppDirectory = filepath.Join(os.Getenv("LocalAppData"), "sillydokkan")
+//	}
+//	return AppDirectory
+//}
 
 //func storeEnabled(name string) bool {
 //	stores := os.Getenv("TRUST_STORES")
@@ -84,22 +82,14 @@ func getCAROOT() string {
 //	return false
 //}
 
-func (m *Mkcert) Run() {
+func MkCertRun() {
 	fmt.Println("HIIIII FROM GOLANG CERT")
-	CAROOT = getCAROOT()
-	if CAROOT == "" {
-		log.Fatalln("ERROR: failed to find the default CA location, set one as the CAROOT env var")
-	}
-	FatalIfErr(os.MkdirAll(CAROOT, 0755), "failed to create the CAROOT")
-	m.loadCA()
-	if !IsMobile {
-		//m.install()
-	}
+	loadCA()
 	fake := []string{"localhost", GetLocalIP(), "::1", "127.0.0.1"}
-	m.makeCert(fake)
+	makeCert(fake)
 }
 
-//func (m *Mkcert) install() {
+//func  install() {
 //	if storeEnabled("system") {
 //		if m.checkPlatform() {
 //			//log.Print("The local CA is already installed in the system trust store! 👍")
@@ -113,28 +103,28 @@ func (m *Mkcert) Run() {
 //	log.Print("")
 //}
 
-//func (m *Mkcert) uninstall() {
+//func  uninstall() {
 //	if storeEnabled("system") && uninstallPlatform() {
 //		log.Print("The local CA is now uninstalled from the system trust store(s)! 👋")
 //		log.Print("")
 //	}
 //}
 
-func (m *Mkcert) checkPlatform() bool {
-	if m.ignoreCheckFailure {
-		return true
-	}
+//func  checkPlatform() bool {
+//	if m.ignoreCheckFailure {
+//		return true
+//	}
+//
+//	_, err := caCert.Verify(x509.VerifyOptions{})
+//	return err == nil
+//}
 
-	_, err := m.caCert.Verify(x509.VerifyOptions{})
-	return err == nil
-}
-
-func (m *Mkcert) makeCert(hosts []string) {
-	if m.caKey == nil {
+func makeCert(hosts []string) {
+	if caKey == nil {
 		log.Fatalln("ERROR: can't create new certificates because the CA key (rootCA-key.pem) is missing")
 	}
 
-	priv, err := m.generateKey(false)
+	priv, err := generateKey(false)
 	FatalIfErr(err, "failed to generate certificate key")
 	pub := priv.(crypto.Signer).Public()
 
@@ -179,10 +169,10 @@ func (m *Mkcert) makeCert(hosts []string) {
 	// IIS (the main target of PKCS #12 files), only shows the deprecated
 	// Common Name in the UI. See issue #115.
 
-	cert, err := x509.CreateCertificate(rand.Reader, tpl, m.caCert, pub, m.caKey)
+	cert, err := x509.CreateCertificate(rand.Reader, tpl, caCert, pub, caKey)
 	FatalIfErr(err, "failed to generate certificate")
 
-	certFile, keyFile, _ := m.fileNames(hosts)
+	certFile, keyFile, _ := fileNames(hosts)
 
 	certFile = filepath.Join(AppDirectory, "server.crt")
 	keyFile = filepath.Join(AppDirectory, "server.key")
@@ -212,7 +202,7 @@ func (m *Mkcert) makeCert(hosts []string) {
 	//log.Printf("It will expire on %s 🗓\n\n", expiration.Format("2 January 2006"))
 }
 
-//func (m *Mkcert) printHosts(hosts []string) {
+//func  printHosts(hosts []string) {
 //	secondLvlWildcardRegexp := regexp.MustCompile(`(?i)^\*\.[\da-z_-]+$`)
 //	log.Printf("\nCreated a new certificate valid for the following names 📜")
 //	for _, h := range hosts {
@@ -230,7 +220,7 @@ func (m *Mkcert) makeCert(hosts []string) {
 //	}
 //}
 
-func (m *Mkcert) generateKey(rootCA bool) (crypto.PrivateKey, error) {
+func generateKey(rootCA bool) (crypto.PrivateKey, error) {
 
 	if rootCA {
 		return rsa.GenerateKey(rand.Reader, 3072)
@@ -238,7 +228,7 @@ func (m *Mkcert) generateKey(rootCA bool) (crypto.PrivateKey, error) {
 	return rsa.GenerateKey(rand.Reader, 2048)
 }
 
-func (m *Mkcert) fileNames(hosts []string) (certFile, keyFile, p12File string) {
+func fileNames(hosts []string) (certFile, keyFile, p12File string) {
 	defaultName := strings.Replace(hosts[0], ":", "_", -1)
 	defaultName = strings.Replace(defaultName, "*", "_wildcard", -1)
 	if len(hosts) > 1 {
@@ -261,8 +251,8 @@ func randomSerialNumber() *big.Int {
 	return serialNumber
 }
 
-//func (m *Mkcert) makeCertFromCSR() {
-//	if m.caKey == nil {
+//func  makeCertFromCSR() {
+//	if caKey == nil {
 //		log.Fatalln("ERROR: can't create new certificates because the CA key (rootCA-key.pem) is missing")
 //	}
 //
@@ -307,7 +297,7 @@ func randomSerialNumber() *big.Int {
 //		tpl.ExtKeyUsage = append(tpl.ExtKeyUsage, x509.ExtKeyUsageEmailProtection)
 //	}
 //
-//	cert, err := x509.CreateCertificate(rand.Reader, tpl, m.caCert, csr.PublicKey, m.caKey)
+//	cert, err := x509.CreateCertificate(rand.Reader, tpl, caCert, csr.PublicKey, caKey)
 //	fatalIfErr(err, "failed to generate certificate")
 //	c, err := x509.ParseCertificate(cert)
 //	fatalIfErr(err, "failed to parse generated certificate")
@@ -335,36 +325,37 @@ func randomSerialNumber() *big.Int {
 //}
 
 // loadCA will load or create the CA at CAROOT.
-func (m *Mkcert) loadCA() {
+func loadCA() *x509.Certificate {
 	//fmt.Println(getCAROOT())
-	if !PathExists(filepath.Join(CAROOT, rootName)) {
-		m.newCA()
+	if !PathExists(filepath.Join(AppDirectory, rootName)) {
+		newCA()
 	}
-	certPEMBlock, err := ioutil.ReadFile(filepath.Join(CAROOT, rootName))
+	certPEMBlock, err := ioutil.ReadFile(filepath.Join(AppDirectory, rootName))
 	FatalIfErr(err, "failed to read the CA certificate")
 	certDERBlock, _ := pem.Decode(certPEMBlock)
 	if certDERBlock == nil || certDERBlock.Type != "CERTIFICATE" {
 		log.Fatalln("ERROR: failed to read the CA certificate: unexpected content")
 	}
-	m.caCert, err = x509.ParseCertificate(certDERBlock.Bytes)
+	caCert, err = x509.ParseCertificate(certDERBlock.Bytes)
 	FatalIfErr(err, "failed to parse the CA certificate")
 
-	if !PathExists(filepath.Join(CAROOT, rootKeyName)) {
+	if !PathExists(filepath.Join(AppDirectory, rootKeyName)) {
 		println("asd")
-		return // keyless mode, where only -install works
+		return nil // keyless mode, where only -install works
 	}
-	keyPEMBlock, err := ioutil.ReadFile(filepath.Join(CAROOT, rootKeyName))
+	keyPEMBlock, err := ioutil.ReadFile(filepath.Join(AppDirectory, rootKeyName))
 	FatalIfErr(err, "failed to read the CA key")
 	keyDERBlock, _ := pem.Decode(keyPEMBlock)
 	if keyDERBlock == nil || keyDERBlock.Type != "PRIVATE KEY" {
 		log.Fatalln("ERROR: failed to read the CA key: unexpected content")
 	}
-	m.caKey, err = x509.ParsePKCS8PrivateKey(keyDERBlock.Bytes)
+	caKey, err = x509.ParsePKCS8PrivateKey(keyDERBlock.Bytes)
 	FatalIfErr(err, "failed to parse the CA key")
+	return caCert
 }
 
-func (m *Mkcert) newCA() {
-	priv, err := m.generateKey(true)
+func newCA() []byte {
+	priv, err := generateKey(true)
 	FatalIfErr(err, "failed to generate the CA key")
 	pub := priv.(crypto.Signer).Public()
 
@@ -408,17 +399,19 @@ func (m *Mkcert) newCA() {
 
 	privDER, err := x509.MarshalPKCS8PrivateKey(priv)
 	FatalIfErr(err, "failed to encode CA key")
-	err = ioutil.WriteFile(filepath.Join(CAROOT, rootKeyName), pem.EncodeToMemory(
+	err = ioutil.WriteFile(filepath.Join(AppDirectory, rootKeyName), pem.EncodeToMemory(
 		&pem.Block{Type: "PRIVATE KEY", Bytes: privDER}), 0400)
 	FatalIfErr(err, "failed to save CA key")
 
-	err = ioutil.WriteFile(filepath.Join(CAROOT, rootName), pem.EncodeToMemory(
-		&pem.Block{Type: "CERTIFICATE", Bytes: cert}), 0644)
+	urp := pem.EncodeToMemory(&pem.Block{Type: "CERTIFICATE", Bytes: cert})
+	err = ioutil.WriteFile(filepath.Join(AppDirectory, rootName), urp, 0644)
 	FatalIfErr(err, "failed to save CA certificate")
-
+	//fmt.Println(urp)
+	//fmt.Println(cert)
 	log.Printf("Created a new local CA 💥\n")
+	return urp
 }
 
-func (m *Mkcert) caUniqueName() string {
-	return "mkcert development CA " + m.caCert.SerialNumber.String()
+func caUniqueName() string {
+	return "mkcert development CA " + caCert.SerialNumber.String()
 }

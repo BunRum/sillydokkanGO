@@ -1,5 +1,6 @@
 package misc
 
+import "C"
 import (
 	"encoding/json"
 	"fmt"
@@ -12,7 +13,6 @@ import (
 )
 
 var AppDirectory string
-var IsMobile bool
 
 type file struct {
 	Path                  string    `json:"path"`
@@ -47,7 +47,7 @@ func getAssets(referenceTime time.Time) []file {
 	//fmt.Println(referenceTime)
 	var files []file
 	settings := GetSettings()
-	assetPath := strings.ReplaceAll(settings["AssetPath"].(string)+"/", `\`, "/")
+	assetPath := strings.ReplaceAll(settings.AssetPath+"/", `\`, "/")
 	assetPath = strings.ReplaceAll(assetPath, "./", "")
 	fmt.Println(assetPath)
 	if !PathExists(assetPath) {
@@ -137,4 +137,10 @@ func parseJSONFile(path string, data interface{}, doreplaceshortcuts bool) error
 func Test() string {
 	fmt.Println("wtf")
 	return "stringtest"
+}
+
+func isMobile() bool {
+	// Add your logic to determine if the application is running on a mobile device
+	// Return true if it is a mobile device, false otherwise
+	return PathExists("/data/user/0/com.ava.sillydokkan")
 }
