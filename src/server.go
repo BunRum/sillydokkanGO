@@ -2,6 +2,7 @@ package misc
 
 import (
 	"bufio"
+	_ "bytes"
 	"fmt"
 	"github.com/cespare/xxhash"
 	"github.com/gofiber/fiber/v2"
@@ -57,6 +58,60 @@ func StartFiberServer() {
 		timeAssets := getAssets(time.Unix(clientAssetVersion, 0))
 		//fmt.Println("here2")
 		return ctx.JSON(timeAssets)
+	})
+	FiberApp.Get("/client_assets/unsafe", func(ctx *fiber.Ctx) error {
+		start := time.Now()
+		var clientAssetVersion int64
+		if headerAssetVersion := ctx.GetReqHeaders()["X-Assetversion"]; len(headerAssetVersion) != 0 {
+			asInt, _ := strconv.Atoi(headerAssetVersion)
+			clientAssetVersion = int64(asInt)
+		} else {
+			clientAssetVersion = 0
+		}
+
+		timeAssets := getAssets(time.Unix(clientAssetVersion, 0))
+		timeAssetsLength := len(timeAssets)
+		var wg sync.WaitGroup
+		wg.Add(timeAssetsLength)
+		assets := make([]fileinfoType, timeAssetsLength)
+		var sizeOfFilteredFiles int
+		for index, key := range timeAssets {
+			go func(idx int, asset file) {
+				defer wg.Done()
+				if asset.RelativePath == "sqlite/current/en/database.db" {
+					return
+				}
+				file, _ := os.Open(asset.Path)
+				defer func(f *os.File) {
+					err := f.Close()
+					if err != nil {
+
+					}
+					//bar.Add(1)
+				}(file)
+				fileinfo, _ := file.Stat()
+
+				hash := xxhash.New()
+				obsolete, _ := os.ReadFile(asset.Path)
+				hash.Write(obsolete)
+
+				url := FileServerUrl + asset.RelativePath
+				assets[idx] = fileinfoType{
+					Url:       url,
+					FilePath:  asset.RelativePath,
+					Algorithm: "xxhash",
+					Hash:      strconv.FormatUint(hash.Sum64(), 10),
+					Size:      int64(fileinfo.Size()),
+				}
+			}(index, key)
+		}
+		wg.Wait()
+		fmt.Println(fmt.Sprintf("\nHashed %d files (%s) in %s\n\n", timeAssetsLength, bytesize.New(float64(sizeOfFilteredFiles)), time.Since(start)))
+		return ctx.JSON(clientAssetsType{
+			Assets:        assets,
+			LatestVersion: time.Now().Unix(),
+		})
+
 	})
 	FiberApp.Get("/client_assets", func(ctx *fiber.Ctx) error {
 		start := time.Now()

@@ -18,13 +18,5 @@ func Initialize() {
 			log.Fatal(err)
 		}
 	}
-
-	//files, err := os.ReadDir(AppDirectory)
-	//if err != nil {
-	//	log.Fatal(err)
-	//}
-	//for _, file := range files {
-	//	fmt.Println(file.Name())
-	//}
 	MkCertRun()
 }

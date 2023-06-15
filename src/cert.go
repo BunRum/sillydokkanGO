@@ -13,7 +13,7 @@ import (
 	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/pem"
-	"fmt"
+	// "fmt"
 	"io/ioutil"
 	"log"
 	"math/big"
@@ -83,7 +83,6 @@ var caKey crypto.PrivateKey
 //}
 
 func MkCertRun() {
-	fmt.Println("HIIIII FROM GOLANG CERT")
 	loadCA()
 	fake := []string{"localhost", GetLocalIP(), "::1", "127.0.0.1"}
 	makeCert(fake)
@@ -408,7 +407,7 @@ func newCA() []byte {
 	FatalIfErr(err, "failed to save CA certificate")
 	//fmt.Println(urp)
 	//fmt.Println(cert)
-	log.Printf("Created a new local CA 💥\n")
+	// log.Printf("Created a new local CA 💥\n")
 	return urp
 }
 

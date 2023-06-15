@@ -2,17 +2,23 @@ package misc
 
 import "C"
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
+	"fyne.io/fyne/v2/widget"
+	"github.com/cespare/xxhash"
 	"github.com/djherbis/times"
+	"io"
 	"net"
 	"os"
+	"os/exec"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"time"
 )
 
-var AppDirectory string
+var AppDirectory = "./"
 
 type file struct {
 	Path                  string    `json:"path"`
@@ -143,4 +149,86 @@ func isMobile() bool {
 	// Add your logic to determine if the application is running on a mobile device
 	// Return true if it is a mobile device, false otherwise
 	return PathExists("/data/user/0/com.ava.sillydokkan")
+}
+
+func Calculatehashesalt() {
+	dateCmd := exec.Command("./xxhsum.exe", "C:/Users/adamv/Documents/Programming/Golang/sillydokkanGO/Icon.png")
+	dateOut, err := dateCmd.CombinedOutput()
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(string(dateOut))
+	re := regexp.MustCompile(`^\w+`)
+	hash := re.FindString(string(dateOut))
+
+	fmt.Println(hash)
+	// timeAssets := getAssets(time.Unix(0, 0))
+	// //fmt.Println(timeAssets)
+	// timeAssetsLength := len(timeAssets) - 1
+	//
+	//	for index := 0; index < timeAssetsLength+1; index++ {
+	//		key := timeAssets[index]
+	//		if key.RelativePath == "sqlite/current/en/database.db" {
+	//			continue
+	//		}
+	//		dateCmd := exec.Command("./xxhsum.exe")
+	//
+	//		dateOut, err := dateCmd.Output()
+	//		if err != nil {
+	//			panic(err)
+	//		}
+	//		fmt.Println("> date")
+	//		fmt.Println(string(dateOut))
+	//
+	//		if err != nil {
+	//			switch e := err.(type) {
+	//			case *exec.Error:
+	//				fmt.Println("failed executing:", err)
+	//				case *exec.ExitError:
+	//					fmt.Println("command exit rc =", e.ExitCode())
+	//					default:
+	//						panic(err)
+	//			}
+	//		}
+	//	}
+}
+
+func Calculatehashes(progress *widget.ProgressBar) {
+	timeAssets := getAssets(time.Unix(0, 0))
+	//fmt.Println(timeAssets)
+	timeAssetsLength := len(timeAssets) - 1
+	//var wg sync.WaitGroup
+	//wg.Add(timeAssetsLength)
+	progress.Max = float64(timeAssetsLength)
+	bufferSize := 1024 * 4
+	//assets := make([]fileinfoType, timeAssetsLength)
+	for index := 0; index < timeAssetsLength+1; index++ {
+		key := timeAssets[index]
+		if key.RelativePath == "sqlite/current/en/database.db" {
+			continue
+		}
+		file, _ := os.Open(key.Path)
+		hash := xxhash.New()
+		reader := bufio.NewReaderSize(file, bufferSize)
+		// Read the file in chunks and print each chunk
+		for {
+			chunk := make([]byte, bufferSize)
+			n, err := reader.Read(chunk)
+			if err != nil && err != io.EOF {
+				FatalIfErr(err, "?")
+				return
+			}
+			if n == 0 {
+				break
+			}
+			_, err = hash.Write(chunk)
+			if err != nil {
+				FatalIfErr(err, "?")
+				return
+			}
+		}
+		fmt.Println(index, timeAssetsLength)
+		progress.SetValue(float64(index))
+	}
+
 }
