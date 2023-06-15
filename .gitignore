@@ -6,3 +6,6 @@
 *.key
 *.crt
 /assets
+settings.json
+/.fleet
+/.idea
