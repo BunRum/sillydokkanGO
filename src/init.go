@@ -17,6 +17,6 @@ func Initialize() {
 		if err := os.MkdirAll(assetsDir, os.ModePerm); err != nil {
 			log.Fatal(err)
 		}
-	}
+	}	
 	MkCertRun()
 }

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"C"
 	misc "SillyDokkan/src"
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
@@ -12,11 +13,10 @@ import (
 )
 
 func main() {
-
 	a := app.New()
 	w := a.NewWindow("Hello")
 	a.Settings().SetTheme(theme.DarkTheme())
-	hello := widget.NewLabel("Hello Fyne!")
+	hello := widget.NewLabel("Hello AVA!!!")
 	//hello2 := widget.NewLabel("Hello Fyne!")
 	progress := widget.NewProgressBar()
 
@@ -54,6 +54,7 @@ func main() {
 	w.SetOnClosed(func() {
 		os.Exit(1)
 	})
+
 	w.ShowAndRun()
 
 }
